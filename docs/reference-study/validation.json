@@ -1,0 +1,579 @@
+{
+  "raha": {
+    "desktop": {
+      "status": "captured; manual interaction review still required",
+      "samples": 10,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "raha-2026-11-14T21-03-47-229Z"
+    },
+    "mobile": {
+      "status": "captured; manual interaction review still required",
+      "samples": 9,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "raha-2026-11-14T21-03-47-229Z"
+    },
+    "reduced-motion": {
+      "status": "captured; manual interaction review still required",
+      "samples": 10,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "raha-2026-11-14T21-03-47-229Z"
+    }
+  },
+  "glinto": {
+    "desktop": {
+      "status": "captured; manual interaction review still required",
+      "samples": 15,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 5,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "glinto-2026-11-14T21-04-12-323Z"
+    },
+    "mobile": {
+      "status": "captured; manual interaction review still required",
+      "samples": 12,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 5,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "glinto-2026-11-14T21-04-12-323Z"
+    },
+    "reduced-motion": {
+      "status": "captured; manual interaction review still required",
+      "samples": 14,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 5,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "glinto-2026-11-14T21-04-12-323Z"
+    }
+  },
+  "tom": {
+    "desktop": {
+      "status": "captured; manual interaction review still required",
+      "samples": 7,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "tom-2026-11-14T21-04-43-089Z"
+    },
+    "mobile": {
+      "status": "captured; manual interaction review still required",
+      "samples": 8,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "tom-2026-11-14T21-04-43-089Z"
+    },
+    "reduced-motion": {
+      "status": "captured; manual interaction review still required",
+      "samples": 7,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 0,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "tom-2026-11-14T21-04-43-089Z"
+    }
+  },
+  "awmedia": {
+    "desktop": {
+      "status": "captured; manual interaction review still required",
+      "samples": 25,
+      "stopReason": "document bottom and stable scroll position",
+      "pageErrors": [],
+      "failedRequests": 2,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "awmedia-2026-11-14T21-05-25-904Z"
+    },
+    "mobile": {
+      "status": "captured; manual interaction review still required",
+      "samples": 25,
+      "stopReason": "sample limit; full traversal not established",
+      "pageErrors": [],
+      "failedRequests": 1,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "awmedia-2026-11-14T21-05-25-904Z"
+    },
+    "reduced-motion": {
+      "status": "captured; manual interaction review still required",
+      "samples": 25,
+      "stopReason": "sample limit; full traversal not established",
+      "pageErrors": [],
+      "failedRequests": 1,
+      "transport": "Playwright API route.fetch with TLS verification and inherited Node CA; not native browser network timing",
+      "capture": "awmedia-2026-11-14T21-05-25-904Z"
+    }
+  },
+  "probe-awmedia-mobile-1794690560131": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-built",
+        "scrollY": 754,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-work",
+        "scrollY": 3763,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-lanes",
+        "scrollY": 5803,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-services",
+        "scrollY": 7710,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-process",
+        "scrollY": 9493,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-why",
+        "scrollY": 13339,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-faq",
+        "scrollY": 16788,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-cta",
+        "scrollY": 17535,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "faq-open",
+        "scrollY": 16693,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "faq-close",
+        "scrollY": 16693,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "footer",
+        "scrollY": 19096,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "mobile-menu-open",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "mobile-menu-escape",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "touch-swipe",
+        "scrollY": 375,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      }
+    ]
+  },
+  "probe-tom-desktop-1794690558795": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-200",
+        "scrollY": 200,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-450",
+        "scrollY": 450,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-700",
+        "scrollY": 700,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-1000",
+        "scrollY": 1000,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-1450",
+        "scrollY": 1450,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "scroll-1900",
+        "scrollY": 1900,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "menu-open",
+        "scrollY": 1900,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "menu-escape",
+        "scrollY": 1900,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "carousel-before",
+        "scrollY": 2903,
+        "counter": "01/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "carousel-horizontal-wheel",
+        "scrollY": 2903,
+        "counter": "02/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "carousel-drag",
+        "scrollY": 2903,
+        "counter": "03/07",
+        "url": "https://www.tomdekoning.work/"
+      },
+      {
+        "action": "footer",
+        "scrollY": 3851,
+        "counter": "03/07",
+        "url": "https://www.tomdekoning.work/"
+      }
+    ]
+  },
+  "probe-raha-desktop-1794690498340": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "hero-pointer-right",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "hero-pointer-left",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "case-studies-anchor",
+        "scrollY": 2048,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/#work"
+      },
+      {
+        "action": "project-open",
+        "scrollY": 10,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/bazargam"
+      },
+      {
+        "action": "project-back",
+        "scrollY": 2048,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/#work"
+      }
+    ]
+  },
+  "probe-glinto-desktop-1794690516319": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0",
+        "scrollY": 5278,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.25",
+        "scrollY": 5424,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.5",
+        "scrollY": 5569,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.75",
+        "scrollY": 5715,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-1",
+        "scrollY": 5860,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "service-media",
+        "scrollY": 2328,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "hero-return",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      }
+    ]
+  },
+  "probe-awmedia-reduced-1794720225839": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-built",
+        "scrollY": 810,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-work",
+        "scrollY": 7448,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-lanes",
+        "scrollY": 10659,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-services",
+        "scrollY": 11854,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-process",
+        "scrollY": 13150,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-why",
+        "scrollY": 15775,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-faq",
+        "scrollY": 17558,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "section-cta",
+        "scrollY": 18168,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "faq-open",
+        "scrollY": 17319,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "faq-close",
+        "scrollY": 17319,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      },
+      {
+        "action": "footer",
+        "scrollY": 18852,
+        "counter": null,
+        "url": "https://awmedia.marketing/"
+      }
+    ]
+  },
+  "probe-glinto-mobile-1794720427996": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0",
+        "scrollY": 3817,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.25",
+        "scrollY": 3838,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.5",
+        "scrollY": 3860,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-0.75",
+        "scrollY": 3881,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "horizontal-1",
+        "scrollY": 3902,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "service-media",
+        "scrollY": 1707,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "hero-return",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "mobile-menu-open",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "mobile-menu-escape",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      },
+      {
+        "action": "touch-swipe",
+        "scrollY": 375,
+        "counter": null,
+        "url": "https://glinto.co.kr/en"
+      }
+    ]
+  },
+  "probe-raha-mobile-1794720227175": {
+    "error": null,
+    "steps": [
+      {
+        "action": "settled-entry",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "project-open",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/bazargam"
+      },
+      {
+        "action": "project-back",
+        "scrollY": 1143,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "mobile-menu-open",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "mobile-menu-escape",
+        "scrollY": 0,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      },
+      {
+        "action": "touch-swipe",
+        "scrollY": 375,
+        "counter": null,
+        "url": "https://raha-salimi.vercel.app/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "runAt": "2026-11-15T05:27:37.709Z",
+  "outcomes": [
+    {
+      "mode": "desktop",
+      "result": "passed",
+      "errors": []
+    },
+    {
+      "mode": "mobile",
+      "result": "passed",
+      "errors": []
+    },
+    {
+      "mode": "reduced",
+      "result": "passed",
+      "errors": []
+    },
+    {
+      "mode": "no-javascript",
+      "result": "passed"
+    }
+  ]
+}

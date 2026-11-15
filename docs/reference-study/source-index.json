@@ -1,0 +1,380 @@
+[
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/2wm2bfa9yibnl.css",
+    "localEvidence": "evidence/http/raha/691d00c5e8d7.css",
+    "sha256OfLocalFile": "0abff87998c975081ae9960df978166baa68717f4c34894312cc0d0a5abc90b7",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/3c1omlwndexps.css",
+    "localEvidence": "evidence/http/raha/7e2cf7afa560.css",
+    "sha256OfLocalFile": "c7943c203c2186fc857b18c2baadcc2c60b70827c88b1402c7b3094368bf0ebb",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/0t584e36t7l9k.css",
+    "localEvidence": "evidence/http/raha/ffe70225abf9.css",
+    "sha256OfLocalFile": "0ff93c6454fcad7f2d61cbecb58f68a7b355775d833c3f3e9d0bd3815c1bdc53",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/02lm8wmseodja.css",
+    "localEvidence": "evidence/http/raha/9675bb5decc0.css",
+    "sha256OfLocalFile": "72af534cc5e872f30ee3b0289cb8eb4f46c617f90545a2d9ca6865ed504419fd",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/2u5v7xdlfh11m.js",
+    "localEvidence": "evidence/http/raha/a0103e0caf6e.js",
+    "sha256OfLocalFile": "3bad84052af1587629803b4be4a0783f8fc8b6aae884aaa1408045969c654f0d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/1z_2trs2i2frw.js",
+    "localEvidence": "evidence/http/raha/8eb6ad34c659.js",
+    "sha256OfLocalFile": "ccf284a97a6514d26861a63855839ca4bbb10ec42aaa60f9e5bb91d2ef5f0100",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/05m7645vlmefc.js",
+    "localEvidence": "evidence/http/raha/d2dc3940c11a.js",
+    "sha256OfLocalFile": "fedcfae664c78d667628a88aa959302dec27139e4c0d71ef8c716bc7ce9516c3",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/turbopack-2r_hemnx9jyce.js",
+    "localEvidence": "evidence/http/raha/9d849baa94ae.js",
+    "sha256OfLocalFile": "98f1ebca433e7afcd77183e6cc30d2994e7cf68d702b21f881de835c1471b98a",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/1dmsk0g1obdr0.js",
+    "localEvidence": "evidence/http/raha/072202a2e9fb.js",
+    "sha256OfLocalFile": "5681d6649b22e3ced197690a3cfb4d9db16989c7d6942e9708a9a396496c6b11",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/2wsrqv7i0uhpe.js",
+    "localEvidence": "evidence/http/raha/dd07fc539345.js",
+    "sha256OfLocalFile": "67266b19b32d5be4756d76ca5c0a86ec9789bf6d22aca2730d0d4879bc53b52a",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/1_1dou4th7b49.js",
+    "localEvidence": "evidence/http/raha/bad4de882a9f.js",
+    "sha256OfLocalFile": "a3e1b76fcbd45f028c9883430ff616fa79ea5250ddcd925458d4874800614ae3",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/3kttry6rtwe29.js",
+    "localEvidence": "evidence/http/raha/05d3bf92134b.js",
+    "sha256OfLocalFile": "13be7c6635212059c19e1dca461d8c58d20d245487e3bf87ba860459d2ad88b3",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "localEvidence": "evidence/http/raha/d16449d373dc.js",
+    "sha256OfLocalFile": "cf5e6a572e607592354f7c649fa66bb3b20cb44495ba9965508ef08e435815a1",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "raha",
+    "url": "https://raha-salimi.vercel.app/_next/static/immutable/chunks/0-b3f78sdkfud.js",
+    "localEvidence": "evidence/http/raha/184655ad06e1.js",
+    "sha256OfLocalFile": "f250a1fbf9873fcfa83a8e5dcd2dc57fe40bc7695bc7f2e038bf9232aff87f80",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/0k1f2nt08p6_n.css",
+    "localEvidence": "evidence/http/glinto/415239fed7c1.css",
+    "sha256OfLocalFile": "34ca1a14853b3f8444db7a7e5a5c17c7e6d2e201f54b5c8b62322a20c90d927d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/0twwmijs60d6j.css",
+    "localEvidence": "evidence/http/glinto/62e25c00cd1e.css",
+    "sha256OfLocalFile": "6ef8d6de168e392404bc774aaa77039f9b931b7e06dfba9c0be5e1ee84caa88c",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/176o5frxz00u6.css",
+    "localEvidence": "evidence/http/glinto/913f131608f5.css",
+    "sha256OfLocalFile": "4d1174a6cc8fff283a5b888344b3ce7d9f59bb2689bbbab33356ff6fd6fffca6",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/31tcpybs-b989.js",
+    "localEvidence": "evidence/http/glinto/dc477f0e7456.js",
+    "sha256OfLocalFile": "67827800cf9c7bbdc06cd2f685396275f6e12b245e8fec3c23b3626145cc6783",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/3easvhj9ciy30.js",
+    "localEvidence": "evidence/http/glinto/0f2896353c4b.js",
+    "sha256OfLocalFile": "2a1bc027a329b5ffb9d1bea8795b735686a45a61417b005de24f393e69a99ccd",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/303qebizu3v7f.js",
+    "localEvidence": "evidence/http/glinto/e95ff031ac42.js",
+    "sha256OfLocalFile": "dd0de302ddcc05edffca0a9196b97944e1bc3e67d1ecc6b01d6f6fbda7e0eb48",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/turbopack-0c_dsv8myhk0m.js",
+    "localEvidence": "evidence/http/glinto/ff13228579fb.js",
+    "sha256OfLocalFile": "9671ce996814c5626c32bb0ec944a4e64f0ad31a1620fed70b82bfd6bb8d1e25",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/2corl6wyj4669.js",
+    "localEvidence": "evidence/http/glinto/d4b18a096d60.js",
+    "sha256OfLocalFile": "6aa74574b242164faee188ab0dc83b7f01f3617b2d299b417b15e2b64a5d0cdb",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/2sfnf4kzsve7s.js",
+    "localEvidence": "evidence/http/glinto/fbf49e30fdff.js",
+    "sha256OfLocalFile": "4744470fdbb506307b4734aa253552783d32bf7a438874b7a924a38bcb74e9ad",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/1-9is6l5dyogv.js",
+    "localEvidence": "evidence/http/glinto/9ed33936b0b5.js",
+    "sha256OfLocalFile": "e1d9bfcf2b1c88862dd11b5a6a49f7acfa47bfa002b1e3aac03b6a372240a2a1",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/0_u4s3xswrpo-.js",
+    "localEvidence": "evidence/http/glinto/855796b845f8.js",
+    "sha256OfLocalFile": "408acda357a9ec9df20eeac0629a791fc8e17513f840192ac8524e09deae9314",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/3l4_mjvskt87r.js",
+    "localEvidence": "evidence/http/glinto/7df9fe763e47.js",
+    "sha256OfLocalFile": "64a2a60c359e4b7be72dc0d010e28d2ef84c08cf9195d4b148726500bdee68a3",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-18541291589",
+    "localEvidence": "evidence/http/glinto/015409594403.js",
+    "sha256OfLocalFile": "d29adc0e19befbb680e25bfa520dcba310eaedc11489f4a1fc30cea08602b02b",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "localEvidence": "evidence/http/glinto/ac8a5d523ceb.js",
+    "sha256OfLocalFile": "cf5e6a572e607592354f7c649fa66bb3b20cb44495ba9965508ef08e435815a1",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "glinto",
+    "url": "https://glinto.co.kr/_next/static/immutable/chunks/0lg0ynlbv2vcx.js",
+    "localEvidence": "evidence/http/glinto/5eb67c5c0efb.js",
+    "sha256OfLocalFile": "1f36e164ee6ffe2dbab96a8f19dd1856b49c9160d65ecbfaa9bb32c6af163237",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.prod.website-files.com/6947d4a42871d2972031e9ab/css/tdk-work.webflow.shared.09be52ab1.css",
+    "localEvidence": "evidence/http/tom/0e945448dd26.css",
+    "sha256OfLocalFile": "746a6d474e8c638289d681c3a3199fde1c100593c3df21b2efe8cec7f1b2623d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+    "localEvidence": "evidence/http/tom/012e56dad079.js",
+    "sha256OfLocalFile": "81016ac6be850b72df5d4faa0c3cec8e2c1b0ba0045712144a6766adfad40bee",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.css",
+    "localEvidence": "evidence/http/tom/dbd21c0c7b0a.css",
+    "sha256OfLocalFile": "67621ffb5a8c1323c27572d8fa6fc0954962a7693f46f9dbf9f30332d1f2e07b",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6947d4a42871d2972031e9ab",
+    "localEvidence": "evidence/http/tom/6949a428f962.js",
+    "sha256OfLocalFile": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.prod.website-files.com/6947d4a42871d2972031e9ab/js/webflow.schunk.36b8fb49256177c8.js",
+    "localEvidence": "evidence/http/tom/521831425eee.js",
+    "sha256OfLocalFile": "8b7d0de9f3df9103d70ed000c17b348240623ac4e4053d56fa0d5cfd8d74d79d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.prod.website-files.com/6947d4a42871d2972031e9ab/js/webflow.schunk.80b2e6a92cba2801.js",
+    "localEvidence": "evidence/http/tom/be5501de3360.js",
+    "sha256OfLocalFile": "baff45cf8faceab586c029d63214d475e3fe57734d05391c8522b34d69ea8f95",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.prod.website-files.com/6947d4a42871d2972031e9ab/js/webflow.f884fb70.73c9f6aafe735334.js",
+    "localEvidence": "evidence/http/tom/44050ad69e12.js",
+    "sha256OfLocalFile": "c669965b386dc3766e70023d3e837bc575ce35967cd810257fa586a58a736eab",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+    "localEvidence": "evidence/http/tom/25f2b5b22418.js",
+    "sha256OfLocalFile": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+    "localEvidence": "evidence/http/tom/a58666c5eb2b.js",
+    "sha256OfLocalFile": "b5bb360661f478f0ff6ffa11500d8ce5e2b6aaf6f7288237cdca3aac9548035a",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+    "localEvidence": "evidence/http/tom/9e4772b49e38.js",
+    "sha256OfLocalFile": "7b299a6b26b36fd5ce1c0712f31d6d25f98f9a9860778c2d3a78ce8f880f2edf",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/hls.js@1.6.11",
+    "localEvidence": "evidence/http/tom/32c24796c5f6.js",
+    "sha256OfLocalFile": "99d0d5e63ee7bbc8bd86dd1bc8af887e5784f79b5bb5c6476631abd2c3a9e820",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js",
+    "localEvidence": "evidence/http/tom/2cd590370e2f.js",
+    "sha256OfLocalFile": "c02fee1a6cf64512150b89ae9da179c7974d261607843c6a880009de8a769c61",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "tom",
+    "url": "https://slater.app/20917/64158.js",
+    "localEvidence": "evidence/http/tom/4c30270ca413.js",
+    "sha256OfLocalFile": "9d0bfe4d94fc6a1ab11bfa82aa363ffea00394eb06b1521497e878f655183b4d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/04rv9lq_~p.97.css",
+    "localEvidence": "evidence/http/awmedia/036142ca7684.css",
+    "sha256OfLocalFile": "fab51ad8ad7b07a7ce3fae661d6d5ec02cf81aabdc1d735230ba2890b70458c5",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/0yrizplp3s9dt.css",
+    "localEvidence": "evidence/http/awmedia/79144d9f1b9f.css",
+    "sha256OfLocalFile": "ce8fa098fe42f610fd182a5f22b9c97f83cf0b5676039cc21167404f82cfbcf3",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/04.i-__.as.dk.js",
+    "localEvidence": "evidence/http/awmedia/1cff4b1ba616.js",
+    "sha256OfLocalFile": "ca1dbbea315162397188eeea74f30e467c6d43ed2042812517afb013c0e59872",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/0w16zogd7g-2u.js",
+    "localEvidence": "evidence/http/awmedia/922c43694e14.js",
+    "sha256OfLocalFile": "88d50415226cf97b35a71314f8d2669f17d2e4f9e48545a256835fe0910ed750",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/08k4i79~z7fdf.js",
+    "localEvidence": "evidence/http/awmedia/1c28e1e35431.js",
+    "sha256OfLocalFile": "f2888c62212b32a3b41fc516035f58759bb7bb750df5d2bda3b14b95486c5c3d",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/turbopack-00ap.1hhhkx4u.js",
+    "localEvidence": "evidence/http/awmedia/2f5c0bee95d1.js",
+    "sha256OfLocalFile": "9b16276ad5847c8733b11d7421219882927f86e02c31964ee7fdd7fa51078108",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/0qx9p92aqhpm_.js",
+    "localEvidence": "evidence/http/awmedia/27da43c46846.js",
+    "sha256OfLocalFile": "47bef95535325ff84cd6ad11ed95609e446be2c7de2dab42cbfea6d6f6a51c14",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/0i.l9589uvx0j.js",
+    "localEvidence": "evidence/http/awmedia/91adbb78d761.js",
+    "sha256OfLocalFile": "3b8dfad68e9a4ddba53d03cc661f8939d45b383f99ccebaf4917d208357d0d2f",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/0.d8flowrz5ju.js",
+    "localEvidence": "evidence/http/awmedia/d4306f8d70bf.js",
+    "sha256OfLocalFile": "5968d98b398fe28ead5fa65b8521a47e03fb75356ab3da3fdd8082d00ee70261",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/07xs~or7l9u9w.js",
+    "localEvidence": "evidence/http/awmedia/012dbfe81138.js",
+    "sha256OfLocalFile": "dd08c8f64a561ec33ccbb920ccaa5ea88c15cd7d4c44b3f259448f79876a6e2a",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/03~yq9q893hmn.js",
+    "localEvidence": "evidence/http/awmedia/17f4b430335a.js",
+    "sha256OfLocalFile": "cf5e6a572e607592354f7c649fa66bb3b20cb44495ba9965508ef08e435815a1",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  },
+  {
+    "site": "awmedia",
+    "url": "https://awmedia.marketing/_next/static/chunks/01yt91ob09a46.js",
+    "localEvidence": "evidence/http/awmedia/16e54b3be0a7.js",
+    "sha256OfLocalFile": "597add5b6b1ab99f7e5d392226d01a80486f238bd83f20df9cf06bbde5f1143e",
+    "note": "Some CSS/JS files were formatted for inspection; this hash identifies the local file, not original response bytes."
+  }
+]
