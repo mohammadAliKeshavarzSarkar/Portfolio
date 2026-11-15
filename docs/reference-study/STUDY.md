@@ -221,4 +221,3 @@ Suggested progression:
 6. Validate narrow screens, keyboard, reduced motion, late-loading fonts/images and route cleanup.
 
 Keep present UI/UX/frontend experience distinct from future architecture and leadership goals. Use project decisions and outcomes as content. Geometry should support the content according to the MAK asset rules.
-
