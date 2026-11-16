@@ -1,0 +1,352 @@
+{
+  "site": "raha",
+  "url": "https://raha-salimi.vercel.app/",
+  "started": "2026-11-16T04:13:08.693Z",
+  "mobile": true,
+  "reduced": true,
+  "transport": "TLS-verified API route.fetch; not native browser network timing",
+  "checks": [
+    {
+      "name": "menu expanded",
+      "pass": true
+    },
+    {
+      "name": "menu locks document overflow",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus",
+      "pass": true
+    },
+    {
+      "name": "reduced motion stops automatic belt",
+      "pass": true,
+      "detail": {
+        "before": "none",
+        "after": "none"
+      }
+    },
+    {
+      "name": "ArrowRight moves skills belt",
+      "pass": true,
+      "detail": {
+        "after": "none",
+        "keyed": "matrix(1, 0, 0, 1, -180, 0)"
+      }
+    },
+    {
+      "name": "route cover exists after activation",
+      "pass": true
+    },
+    {
+      "name": "case-study route reached",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "label": "entry",
+      "url": "https://raha-salimi.vercel.app/",
+      "y": 0,
+      "html": "\n        manrope_de7b2fa9-module__1ltb7q__variable\n        plus_jakarta_sans_3e7bc57e-module__EMEi_W__variable\n        dm_sans_1c871f37-module__30ab_W__variable\n        dm_mono_eb08dc71-module__8rBcOq__variable\n        jetbrains_mono_b84eaf9e-module__QAF0rG__variable\n        inter_fe8b9d92-module__LINzvG__variable\n        montserrat_bba129a6-module__TUV0iq__variable\n        big_shoulders_e1da6cd9-module__XtJ0WW__variable\n        h-full\n        antialiased\n      ",
+      "overflow": "clip auto",
+      "intro": null,
+      "introSeen": null,
+      "active": "<body class=\"flex min-h-full flex-col\"><div hidden=\"\"><!--$--><!--/$--></div><main id=\"top\" class=\"\n        home-page\n        min-h-screen\n        overflow-x-clip\n        bg-[#F2F2F7]\n        text-[#111827]\n      \"><header class=\"home-navbar home-navbar--home home-navbar--light pointer-events-none f",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 44,
+          "width": 44,
+          "x": 319,
+          "y": 22,
+          "data": {}
+        }
+      ],
+      "skills": [
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "UX RESERCHDiscovery, interviews, and synthesis to shape product direction.FUNNEL ANALYSISI",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 167.578125,
+          "width": 4654.9375,
+          "x": 20,
+          "y": 537.859375,
+          "data": {}
+        },
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "Research-ledI use qualitative and behavioral evidence to understand where experiences brea",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 214.69921875,
+          "width": 1438.3770751953125,
+          "x": 22.625003814697266,
+          "y": 2526.125732421875,
+          "data": {}
+        }
+      ],
+      "header": [],
+      "slides": [],
+      "track": [],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": []
+    },
+    {
+      "label": "menu-open",
+      "url": "https://raha-salimi.vercel.app/",
+      "y": 0,
+      "html": "\n        manrope_de7b2fa9-module__1ltb7q__variable\n        plus_jakarta_sans_3e7bc57e-module__EMEi_W__variable\n        dm_sans_1c871f37-module__30ab_W__variable\n        dm_mono_eb08dc71-module__8rBcOq__variable\n        jetbrains_mono_b84eaf9e-module__QAF0rG__variable\n        inter_fe8b9d92-module__LINzvG__variable\n        montserrat_bba129a6-module__TUV0iq__variable\n        big_shoulders_e1da6cd9-module__XtJ0WW__variable\n        h-full\n        antialiased\n      ",
+      "overflow": "hidden",
+      "intro": null,
+      "introSeen": null,
+      "active": "<button type=\"button\" aria-label=\"Close menu\" aria-expanded=\"true\" aria-controls=\"home-mobile-menu\" class=\"mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]\"><img alt=\"\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" ",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]",
+          "text": "",
+          "expanded": "true",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 44,
+          "width": 44,
+          "x": 319,
+          "y": 22,
+          "data": {}
+        }
+      ],
+      "skills": [
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "UX RESERCHDiscovery, interviews, and synthesis to shape product direction.FUNNEL ANALYSISI",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 167.578125,
+          "width": 4654.9375,
+          "x": 20,
+          "y": 537.859375,
+          "data": {}
+        },
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "Research-ledI use qualitative and behavioral evidence to understand where experiences brea",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 214.69921875,
+          "width": 1438.3770751953125,
+          "x": 22.625003814697266,
+          "y": 2526.125732421875,
+          "data": {}
+        }
+      ],
+      "header": [],
+      "slides": [],
+      "track": [],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": []
+    },
+    {
+      "label": "skills-keyboard",
+      "url": "https://raha-salimi.vercel.app/",
+      "y": 200,
+      "html": "\n        manrope_de7b2fa9-module__1ltb7q__variable\n        plus_jakarta_sans_3e7bc57e-module__EMEi_W__variable\n        dm_sans_1c871f37-module__30ab_W__variable\n        dm_mono_eb08dc71-module__8rBcOq__variable\n        jetbrains_mono_b84eaf9e-module__QAF0rG__variable\n        inter_fe8b9d92-module__LINzvG__variable\n        montserrat_bba129a6-module__TUV0iq__variable\n        big_shoulders_e1da6cd9-module__XtJ0WW__variable\n        h-full\n        antialiased\n      ",
+      "overflow": "clip auto",
+      "intro": null,
+      "introSeen": null,
+      "active": "<div class=\"mobile-skills\" role=\"region\" aria-label=\"Skills, swipe horizontally to explore\" tabindex=\"0\" style=\"opacity: 1; filter: blur(0px); transform: none;\"><div class=\"mobile-skills-belt\" style=\"touch-action: pan-y; transform: translateX(-180px);\"><div class=\"mobile-skills-group\"><div class=\"mo",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 44,
+          "width": 44,
+          "x": 319,
+          "y": 22,
+          "data": {}
+        }
+      ],
+      "skills": [
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "UX RESERCHDiscovery, interviews, and synthesis to shape product direction.FUNNEL ANALYSISI",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, -180, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 167.578125,
+          "width": 4654.9375,
+          "x": -160,
+          "y": 337.859375,
+          "data": {}
+        },
+        {
+          "tag": "DIV",
+          "class": "mobile-skills-belt",
+          "text": "Research-ledI use qualitative and behavioral evidence to understand where experiences brea",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 214.69921875,
+          "width": 1438.3770751953125,
+          "x": 22.625003814697266,
+          "y": 2326.125732421875,
+          "data": {}
+        }
+      ],
+      "header": [],
+      "slides": [],
+      "track": [],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": []
+    },
+    {
+      "label": "project-open",
+      "url": "https://raha-salimi.vercel.app/bazargam",
+      "y": 0,
+      "html": "\n        manrope_de7b2fa9-module__1ltb7q__variable\n        plus_jakarta_sans_3e7bc57e-module__EMEi_W__variable\n        dm_sans_1c871f37-module__30ab_W__variable\n        dm_mono_eb08dc71-module__8rBcOq__variable\n        jetbrains_mono_b84eaf9e-module__QAF0rG__variable\n        inter_fe8b9d92-module__LINzvG__variable\n        montserrat_bba129a6-module__TUV0iq__variable\n        big_shoulders_e1da6cd9-module__XtJ0WW__variable\n        h-full\n        antialiased\n      ",
+      "overflow": "visible",
+      "intro": null,
+      "introSeen": null,
+      "active": "<body class=\"flex min-h-full flex-col\"><!--$--><!--/$--><script src=\"/_next/static/immutable/chunks/0-b3f78sdkfud.js\" id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[59365,[\\\"/_next/static/immutable/chu",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 44,
+          "width": 44,
+          "x": 319,
+          "y": 22,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [],
+      "slides": [],
+      "track": [],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "final",
+      "url": "https://raha-salimi.vercel.app/bazargam",
+      "y": 0,
+      "html": "\n        manrope_de7b2fa9-module__1ltb7q__variable\n        plus_jakarta_sans_3e7bc57e-module__EMEi_W__variable\n        dm_sans_1c871f37-module__30ab_W__variable\n        dm_mono_eb08dc71-module__8rBcOq__variable\n        jetbrains_mono_b84eaf9e-module__QAF0rG__variable\n        inter_fe8b9d92-module__LINzvG__variable\n        montserrat_bba129a6-module__TUV0iq__variable\n        big_shoulders_e1da6cd9-module__XtJ0WW__variable\n        h-full\n        antialiased\n      ",
+      "overflow": "visible",
+      "intro": null,
+      "introSeen": null,
+      "active": "<body class=\"flex min-h-full flex-col\"><!--$--><!--/$--><script src=\"/_next/static/immutable/chunks/0-b3f78sdkfud.js\" id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[59365,[\\\"/_next/static/immutable/chu",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "mobile-menu-toggle hidden size-11 flex-col items-center justify-center gap-[5px] rounded-[14px] text-[#18188e]",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "flex",
+          "opacity": "1",
+          "height": 44,
+          "width": 44,
+          "x": 319,
+          "y": 22,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [],
+      "slides": [],
+      "track": [],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "finished": "2026-11-16T04:13:34.770Z"
+}
