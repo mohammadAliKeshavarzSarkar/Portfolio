@@ -1,0 +1,548 @@
+{
+  "site": "glinto",
+  "url": "https://glinto.co.kr/en",
+  "started": "2026-11-16T04:13:07.962Z",
+  "mobile": false,
+  "reduced": false,
+  "transport": "TLS-verified API route.fetch; not native browser network timing",
+  "checks": [
+    {
+      "name": "intro releases document",
+      "pass": true
+    },
+    {
+      "name": "theme switches",
+      "pass": true,
+      "detail": {
+        "before": "light",
+        "after": "dark"
+      }
+    },
+    {
+      "name": "theme persists through reload",
+      "pass": true
+    },
+    {
+      "name": "intro session flag exists",
+      "pass": true
+    },
+    {
+      "name": "horizontal track changes then returns",
+      "pass": true,
+      "detail": [
+        "matrix(1, 0, 0, 1, 0, 0)",
+        "matrix(1, 0, 0, 1, -388, 0)",
+        "matrix(1, 0, 0, 1, 0, 0)"
+      ]
+    }
+  ],
+  "states": [
+    {
+      "label": "entry",
+      "url": "https://glinto.co.kr/en",
+      "y": 0,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "light",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": 0,
+          "data": {
+            "hidden": "false"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": 0,
+          "y": 5830,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "revisit",
+      "url": "https://glinto.co.kr/en",
+      "y": 0,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "dark",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": 0,
+          "data": {
+            "hidden": "false"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": 0,
+          "y": 5830,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "runway-0",
+      "url": "https://glinto.co.kr/en",
+      "y": 5278,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "dark",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": -63.71533203125,
+          "data": {
+            "hidden": "true"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": 0,
+          "y": 552,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "runway-1",
+      "url": "https://glinto.co.kr/en",
+      "y": 5860,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "dark",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": -64,
+          "data": {
+            "hidden": "true"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, -388, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": -388,
+          "y": 552,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "runway-0",
+      "url": "https://glinto.co.kr/en",
+      "y": 5278,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "dark",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": 0,
+          "data": {
+            "hidden": "false"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": 0,
+          "y": 552,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "label": "final",
+      "url": "https://glinto.co.kr/en",
+      "y": 5278,
+      "html": "dm_sans_efc253b3-module__w1i8Da__variable h-full antialiased lenis",
+      "overflow": "visible",
+      "theme": "dark",
+      "intro": null,
+      "introSeen": "1",
+      "active": "<body class=\"min-h-full flex flex-col bg-background text-text-primary\"><div hidden=\"\"><!--$--><!--/$--></div><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PG8JH88X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"top\" data-reveal-root",
+      "menu": [
+        {
+          "tag": "BUTTON",
+          "class": "site-header__toggle relative block size-[1.125rem] text-text-strong",
+          "text": "",
+          "expanded": "false",
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "none",
+          "opacity": "1",
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "data": {}
+        }
+      ],
+      "skills": [],
+      "header": [
+        {
+          "tag": "HEADER",
+          "class": "site-header-wrap sticky top-0 z-40 h-16",
+          "text": "AboutServicesGlinto.devWorksContact04:13 UTCKRAboutServicesGlinto.devWorksContactKR",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "none",
+          "display": "block",
+          "opacity": "1",
+          "height": 64,
+          "width": 1440,
+          "x": 0,
+          "y": 0,
+          "data": {
+            "hidden": "false"
+          }
+        }
+      ],
+      "slides": [],
+      "track": [
+        {
+          "tag": "OL",
+          "class": "hs-track flex flex-col gap-4 px-gutter md:w-max md:flex-row md:gap-6 md:will-change-transform",
+          "text": "01BriefingWe study your brand and needs, then set the goals, audience and scope.02Strategy",
+          "expanded": null,
+          "inert": false,
+          "hidden": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "display": "flex",
+          "opacity": "1",
+          "height": 164,
+          "width": 1827.9375,
+          "x": 0,
+          "y": 552,
+          "data": {}
+        }
+      ],
+      "gallery": [],
+      "items": [],
+      "faq": [],
+      "videos": [
+        {
+          "paused": true,
+          "readyState": 0,
+          "error": null
+        },
+        {
+          "paused": true,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "finished": "2026-11-16T04:13:44.382Z"
+}

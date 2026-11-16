@@ -1,5 +1,7 @@
 # Portfolio motion study
-Study date: 2026-11-15 (Asia/Tehran).
+Study date: 2026-11-15 (Asia/Tehran). Expanded chapters and new interaction checks: 2026-11-16.
+
+Read the [individual chapters](README.md#read-one-reference-at-a-time) for the second-pass findings, annotated code and limitations. The [coverage ledger](COVERAGE.md) records what was actually checked.
 
 ## Evidence and limits
 All four homepages were loaded in Chromium and their public HTML, CSS and JavaScript inspected. Desktop (1440x900), mobile (390x844), and reduced-motion captures completed for every site. All twelve reports contain no page JavaScript errors. Tom's targeted follow-up also completed and its saved results were checked after reconnection. AW Media's coarse mobile and reduced-motion sweeps hit the sample limit. Later targeted runs reached the FAQ, CTA and footer in both modes. The mobile run exercised its menu and a touch swipe. Raha and Glinto also received mobile menu and emulated touch follow-ups.
@@ -73,7 +75,7 @@ The component also supports optional eased steps when a snap attribute exists. T
 - Fine-pointer contextual cursor follows with a .25 interpolation factor and view/drag labels.
 - A service navigation strip has separate decoy and real states controlled by viewport thresholds.
 - Fonts observed: DM Sans and Pretendard Variable.
-- Reduced motion disables several decorative effects. Lenis initialization itself was not guarded in the inspected SmoothScroll component, so complete disabling of smooth scrolling is not established.
+- Reduced motion disables several decorative effects. Follow-up source inspection found that although SmoothScroll initializes Lenis unconditionally, the bundled Lenis defaults respectReducedMotion to true. Its scrollTo branch makes programmatic movement immediate and non-programmatic interpolation 1 under that preference. This source finding is not a new reduced-motion wheel benchmark.
 
 For MAK: take the clear phase transitions and measured geometry, with a shorter runway and static mobile content. Use the MAK accent and typography; do not carry over Glinto's branding.
 
@@ -209,7 +211,7 @@ coverScale = max(targetWidth/sourceWidth,targetHeight/sourceHeight)
 
 Use transform and opacity for most continuous effects. Width/height animation, large blur filters, WebGL, and dense frame sequences require separate profiling. No performance ranking of these sites is established by this study.
 
-## Recommended MAK implementation direction
+## Options to evaluate later for MAK
 Use semantic HTML or React components for content, CSS for layout and sticky regions, GSAP/ScrollTrigger for complex choreography, and at most one optional Lenis instance. Do not add Locomotive, Lenis and a second smooth-scroll wrapper together.
 
 Suggested progression:

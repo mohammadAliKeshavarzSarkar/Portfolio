@@ -1,4 +1,6 @@
-# Building this kind of portfolio
+# Implementation reference for later use
+
+Current scope: study and document mechanisms for later use. Begin with the [four individual case studies](README.md#read-one-reference-at-a-time). The earlier lab is historical, not an approved portfolio design.
 
 The [site study](STUDY.md) explains the original implementations. The [lab](motion-lab/index.html) is an original, runnable reconstruction of shared mechanisms. The supplementary snippets here explain integration choices; they are not all independently browser-tested components.
 
@@ -18,7 +20,7 @@ CSS determines where content lives. A smoothing engine changes how the document 
 
 Do not combine several smooth-scroll owners. Do not create a custom scroll container unless you need one: it complicates sticky positioning, anchors, keyboard scrolling and focus. `scroll-behavior:smooth` handles anchors/programmatic scrolling; it is not a wheel interpolation engine. Scroll snap determines resting positions; it does not make an animation follow progress.
 
-## Read the runnable example
+## Historical mechanism experiment
 
 The lab includes:
 
@@ -185,4 +187,4 @@ Before shipping a portfolio, additionally test real touch devices, keyboard focu
 
 ## MAK application
 
-Keep the warm off-white, near-black and selective red signal. Let typography lead, use one pattern family at a time and choose one strong opening gesture. Combine Tom's composition with Raha's case-study clarity. Use a Glinto-style progression to explain decisions, and AW-style stacking only where it improves a project story. Give real UI/UX/frontend work the evidence it deserves while describing architecture and leadership as future direction.
+Keep the warm off-white, near-black and selective red signal. Let typography lead, use one pattern family at a time and choose one strong opening gesture. Evaluate Tom's coordinated composition, Raha's case-study clarity, Glinto's fixed reading area and AW Media's project framing as separate options. Do not combine them before the content and static composition justify the choice. Give real UI/UX/frontend work the evidence it deserves while describing architecture and leadership as future direction.
