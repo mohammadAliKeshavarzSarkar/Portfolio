@@ -1,33 +1,29 @@
 # Portfolio reference study
 
-Research date: **15 November 2026, Asia/Tehran**. Four user-selected references, with extra depth on Tom de Koning.
+Initial research: **15 November 2026**. Documentation expansion and interaction audit: **16 November 2026 (UTC)**. Four user-selected references, with extra depth on Tom de Koning.
 
-## Read and try
+## Read one reference at a time
 
-1. [Full site-by-site technical study](STUDY.md): observed interactions, source mechanisms, parameters and limitations.
-2. [Implementation guide](BUILD-GUIDE.md): reusable patterns, architecture and lifecycle rules.
-3. [Runnable motion lab](motion-lab/index.html): original examples with local pinned dependencies.
-4. [Validation evidence](validation.json), [public source index](source-index.json), and [lab test results](motion-lab/test-results.json).
+This is a **documentation and learning library**. The current revision deepens the case studies and adds annotated code; it does not build a portfolio. The earlier motion lab is historical mechanism exploration, not a visual target or an approved design.
 
-Run from this directory:
+| Order | Chapter | Main lesson |
+|---|---|---|
+| 1 | [Raha Salimi](sites/01-raha.md) | Native scroll, layered depth, route covers and a mobile skills belt |
+| 2 | [Glinto](sites/02-glinto.md) | Stable reading areas, intro coordination and measured horizontal travel |
+| 3 | [Tom de Koning](sites/03-tom.md) | Portrait/type/navigation choreography, gallery physics and rendering lifecycle |
+| 4 | [AW Media](sites/04-awmedia.md) | Persistent device frames, sticky depth, disclosures and glass rendering |
 
-```sh
-python3 -m http.server 4173 --bind 127.0.0.1 --directory motion-lab
-```
+Each chapter distinguishes observed behavior, public-source facts, visual interpretation and original reconstructions. Code inside the documentation explains mechanisms and assumptions; it is not a claim to reproduce the complete websites.
 
-Open port 4173 in a browser on that machine. No installation is needed to run the lab. It uses original geometric frames and placeholder panels, not the reference sites' assets or project claims. This is a learning artifact, not the finished portfolio.
+Then read:
 
-![Original learning lab, desktop](figures/lab-desktop.png)
+1. [How to read motion as a design system](skills/01-motion-reading.md).
+2. [Tom's opening choreography, with annotated code](skills/02-tom-choreography.md).
+3. [Section-transition patterns and formulas](skills/03-section-transition-patterns.md).
+4. [Coverage, verification results and remaining gaps](COVERAGE.md).
+5. [Original source-backed technical study](STUDY.md) and [implementation reference](BUILD-GUIDE.md).
 
-[Mobile lab screenshot](figures/lab-mobile.png)
-
-The cloud machine provides Playwright and Chromium. With the server running:
-
-```sh
-node motion-lab/test.cjs
-```
-
-Elsewhere, run `npm ci` in `motion-lab` to install the test dependency. Set `STUDY_CHROMIUM` to your Chromium executable; `LAB_URL` overrides the local address.
+The screenshots below are selected scroll samples, not complete interaction evidence. The JSON reports and source trail supply the technical details.
 
 ## 1. Raha Salimi
 
@@ -74,3 +70,21 @@ node probe.cjs awmedia --mobile
 ```
 
 The collector has explicit limits. Its mobile sweep is programmatic; targeted probes include an emulated touch gesture. No forms were submitted. No environment configuration was changed or published to deliver this study.
+
+## Reproduce the follow-up checks
+
+The cloud workspace provides Playwright and Chromium. `audit.cjs` performs read-only interactions and writes compact states and assertions to `audit-results/`. It returns a nonzero exit code for a failed check or an aborted audit. Raw screenshots remain under ignored `evidence/audit/`.
+
+```sh
+node audit.cjs raha
+node audit.cjs raha --reduced
+node audit.cjs glinto
+node audit.cjs tom
+node audit.cjs awmedia --mobile
+```
+
+Elsewhere, install Playwright and provide Chromium through `STUDY_CHROMIUM`. Fixed viewport sizes are 1440×900 desktop and 390×844 emulated mobile. These checks establish specific behavior, not aesthetic quality or complete accessibility.
+
+## Earlier experiment
+
+The existing [motion lab](motion-lab/index.html) and its [test results](motion-lab/test-results.json) remain as historical mechanism experiments. They are not the design recommendation for the portfolio and were not changed in this documentation revision. The learning path above is the current deliverable.
