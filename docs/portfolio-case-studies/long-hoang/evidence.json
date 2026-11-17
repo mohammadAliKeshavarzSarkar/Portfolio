@@ -1,0 +1,762 @@
+{
+  "researchDate": "2026-11-17",
+  "researchTimezone": "Asia/Tehran",
+  "portfolio": "Long Hoang Portfolio",
+  "originalURL": "https://longhoang-lyo.com/",
+  "awwwardsURL": "https://www.awwwards.com/sites/long-hoang-portfolio",
+  "creditsAsListed": ["Long Sẹo"],
+  "selfIdentifiedAuthor": "Long Hoang (Lyo)",
+  "listingStatusAtInspection": "Nominee - Nov 17, 2026",
+  "sourceSnapshots": [
+    {
+      "id": "vYUQZzfX.js",
+      "url": "https://longhoang-lyo.com/assets/vYUQZzfX.js",
+      "role": "Entry and direct route dispatch",
+      "sha256": "591c8a7a0c9aad13b80360e1277170eb2d357a8e31db522cafde9e5ee695e8d4",
+      "bytes": 9703,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "BlAypStk.js",
+      "url": "https://longhoang-lyo.com/assets/BlAypStk.js",
+      "role": "Application / startup coordinator / renderer",
+      "sha256": "8be1f74585dc35303af86419e6bf08256ca3e3c677e891f47153b5f8932179e4",
+      "bytes": 17926,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "B1Nq4Kq6.js",
+      "url": "https://longhoang-lyo.com/assets/B1Nq4Kq6.js",
+      "role": "World / fixed-step physics / grab / transition renderer",
+      "sha256": "1fa487d9f4689b93fcbe39613bd618a346503d0ef0be6353f2e46b226a9cb59f",
+      "bytes": 899532,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "CJn-Xu8f.js",
+      "url": "https://longhoang-lyo.com/assets/CJn-Xu8f.js",
+      "role": "Intro and entry sequence",
+      "sha256": "9466b0e841cb7349e42d6167b85c9c811546248a94a8141971388b79129a10bb",
+      "bytes": 26258,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "pr2JiyVy.js",
+      "url": "https://longhoang-lyo.com/assets/pr2JiyVy.js",
+      "role": "GPU warmup work scheduling",
+      "sha256": "85d36258e42a5fde5c67fef58d6fbdc937fb564f28623d83b9b0b5aad203614d",
+      "bytes": 9689,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "CZejaJVW.js",
+      "url": "https://longhoang-lyo.com/assets/CZejaJVW.js",
+      "role": "Project media panel and nested scrolling",
+      "sha256": "ebc8f0be8c3aa7c939ba3a08db75df4747fe78dee0546d6359c1c73d1a85be5b",
+      "bytes": 13806,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "CozVMRND.js",
+      "url": "https://longhoang-lyo.com/assets/CozVMRND.js",
+      "role": "Metadata / history helpers / modal controller",
+      "sha256": "eb333580b6607a6b991df08cad28db211f01cbca22e8a4ba5e0d756440092896",
+      "bytes": 11252,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "D9JAKPuk.js",
+      "url": "https://longhoang-lyo.com/assets/D9JAKPuk.js",
+      "role": "Named pause locks and inert root",
+      "sha256": "04f208e8062f1ba7f09e24306ae1ae447a7ff90e1d3dc05b1a422bb0ff77d8e8",
+      "bytes": 1518,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "Co_82n2H.js",
+      "url": "https://longhoang-lyo.com/assets/Co_82n2H.js",
+      "role": "Shared UI / disposal / reduced-motion helpers",
+      "sha256": "2e36dba31764efc09d8c3e4faff870ad7ccbdce23c11ce82b43b2737ce22e0e3",
+      "bytes": 21657,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "BW6YWG0R.js",
+      "url": "https://longhoang-lyo.com/assets/BW6YWG0R.js",
+      "role": "Event bus and input capability detection",
+      "sha256": "e288c6f0ea6b8204580ce1cb779e033a88e6707a8986314a6353505dd1d15ae1",
+      "bytes": 3492,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "t1WzwXnd.js",
+      "url": "https://longhoang-lyo.com/assets/t1WzwXnd.js",
+      "role": "UI/project content configuration",
+      "sha256": "7619880e73da5a4179f1299716ecdc4f55087a6b7d65eddb6bfb0b9b3f24dad7",
+      "bytes": 22104,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "C6MU3C_D.js",
+      "url": "https://longhoang-lyo.com/assets/C6MU3C_D.js",
+      "role": "Lenis module; version literal 1.3.25",
+      "sha256": "eb43c02f7109574f69048d3af8b1a568bc1f200934b81ae4c5c140146f0aee14",
+      "bytes": 18311,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "DrDnj3Lb.js",
+      "url": "https://longhoang-lyo.com/assets/DrDnj3Lb.js",
+      "role": "GSAP module; version literal 3.13.0",
+      "sha256": "ecb2d64046924ae3d5c7bedaf7c7b8a362c36975e743478ac6929bc34bbde315",
+      "bytes": 69067,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "DjQoCJ1T.js",
+      "url": "https://longhoang-lyo.com/assets/DjQoCJ1T.js",
+      "role": "Rapier WASM bindings",
+      "sha256": "bd8fdff7852a2dc5f4589f2b26e3d72181502fc29684404cbfda4cbc3e08ac22",
+      "bytes": 2234492,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "BcJjgNcx.css",
+      "url": "https://longhoang-lyo.com/assets/BcJjgNcx.css",
+      "role": "Shared tokens and font rules",
+      "sha256": "b13f2cf301bc8576a9cf198a4c3d36a39a81e73afb65581419683f9ac36feb86",
+      "bytes": 24977,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "CIsbTXqr.css",
+      "url": "https://longhoang-lyo.com/assets/CIsbTXqr.css",
+      "role": "Case-study panel layout and responsiveness",
+      "sha256": "023ef458e5b4adbdb0c7d36811bf4e0b06cc3bdff76b5283c88af2a69e27b4fc",
+      "bytes": 7062,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "home.html",
+      "url": "https://longhoang-lyo.com/",
+      "role": "Listing / initial document / published reference",
+      "sha256": "3ad3382d8289fccd9940c4a3178cae061469333c3a4577f29ea077e6ad9e21d5",
+      "bytes": 22213,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "listing.html",
+      "url": "https://www.awwwards.com/sites/long-hoang-portfolio",
+      "role": "Listing / initial document / published reference",
+      "sha256": "fafcc49ea66f5a24ce9fb6916de1542d05b365a1bd21d2fcb9991446639f2348",
+      "bytes": 278152,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "category.html",
+      "url": "https://www.awwwards.com/websites/portfolio/",
+      "role": "Listing / initial document / published reference",
+      "sha256": "ef3117547a6658ebe111c2bdb01c3ca1a0aeedbe1879aed84dd7106d370af9dc",
+      "bytes": 606934,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    },
+    {
+      "id": "awwwards-reference.png",
+      "url": "https://assets.awwwards.com/awards/submissions/2026/10/6ae5d5c3bac73164277129.png",
+      "role": "Listing / initial document / published reference",
+      "sha256": "620278b4f0e981ceb487cd439160a906615af06581e0f4be280ee5b8fd7311a2",
+      "bytes": 2179697,
+      "hashIdentifies": "retrieved bytes, not local pretty-printed version"
+    }
+  ],
+  "browserMethod": "Headless Chromium at /usr/bin/chromium. TLS-verified Playwright route.fetch/fulfill through environment proxy; network and streaming timing changed. No performance benchmark.",
+  "contentObservations": [
+    {
+      "label": "work",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "states": [
+        {
+          "name": "entry",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 0,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Overview"]
+        },
+        {
+          "name": "toc",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 2368,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Strategic Impact"]
+        },
+        {
+          "name": "wheel",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 3368,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Design Process"]
+        }
+      ],
+      "pageExceptions": [],
+      "requestFailureCount": 0,
+      "automationLimit": "First Next locator selected a hidden duplicate control; timed out. Corrected in route follow-up."
+    },
+    {
+      "label": "mobile",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "states": [
+        {
+          "name": "entry",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 0,
+            "scrollHeight": 11912,
+            "clientHeight": 844,
+            "class": "case-study-page__images-column"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 844,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 314,
+            "y": 0,
+            "w": 76,
+            "h": 844,
+            "display": "flex"
+          },
+          "current": []
+        },
+        {
+          "name": "scroll",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 650,
+            "scrollHeight": 11912,
+            "clientHeight": 844,
+            "class": "case-study-page__images-column"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 844,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 314,
+            "y": 0,
+            "w": 76,
+            "h": 844,
+            "display": "flex"
+          },
+          "current": []
+        }
+      ],
+      "pageExceptions": [],
+      "requestFailureCount": 0
+    },
+    {
+      "label": "reduced",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "reducedMotion": "reduce"
+      },
+      "states": [
+        {
+          "name": "entry",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 0,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Overview"]
+        },
+        {
+          "name": "toc-early",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 799,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis lenis-scrolling lenis-smooth"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Overview"]
+        },
+        {
+          "name": "toc-settled",
+          "url": "https://longhoang-lyo.com/work/hanzii",
+          "title": "Work | Long Hoang",
+          "scrollY": 0,
+          "column": {
+            "scrollTop": 2368,
+            "scrollHeight": 33046,
+            "clientHeight": 900,
+            "class": "case-study-page__images-column lenis"
+          },
+          "root": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 900,
+            "display": "flex"
+          },
+          "toc": {
+            "x": 1160,
+            "y": 0,
+            "w": 280,
+            "h": 900,
+            "display": "flex"
+          },
+          "current": ["►\n              Strategic Impact"]
+        }
+      ],
+      "pageExceptions": [],
+      "requestFailureCount": 0
+    },
+    {
+      "label": "no-js",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "javaScriptEnabled": false
+      },
+      "states": [
+        {
+          "name": "entry",
+          "url": "https://longhoang-lyo.com/",
+          "title": "Long Hoang (Lyo) – Designer & Developer",
+          "scrollY": 0,
+          "column": null,
+          "root": null,
+          "toc": null,
+          "current": []
+        }
+      ],
+      "pageExceptions": [],
+      "requestFailureCount": 0,
+      "visualObservation": "Fixed PREPARING RENDERER loader remained visible; noscript summary present in source but obscured."
+    },
+    {
+      "label": "about",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "states": [
+        {
+          "name": "entry",
+          "url": "https://longhoang-lyo.com/about",
+          "title": "About",
+          "scrollY": 0,
+          "column": null,
+          "root": null,
+          "toc": null,
+          "current": []
+        },
+        {
+          "name": "tab",
+          "url": "https://longhoang-lyo.com/about",
+          "title": "About",
+          "scrollY": 0,
+          "column": null,
+          "root": null,
+          "toc": null,
+          "current": []
+        }
+      ],
+      "pageExceptions": [],
+      "requestFailureCount": 0,
+      "focusObservation": "Initial focus on About panel, next Tab reached a skill tab; not a full focus audit."
+    }
+  ],
+  "routeFollowup": {
+    "sequence": "Direct Hanzii; Business Impact TOC; wheel to bottom; sidebar Next; browser Back",
+    "states": [
+      {
+        "name": "entry",
+        "url": "https://longhoang-lyo.com/work/hanzii",
+        "title": "Work | Long Hoang",
+        "scrollY": 0,
+        "column": {
+          "scrollTop": 0,
+          "scrollHeight": 33046,
+          "clientHeight": 900,
+          "class": "case-study-page__images-column lenis"
+        },
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 900,
+          "display": "flex"
+        },
+        "toc": {
+          "x": 1160,
+          "y": 0,
+          "w": 280,
+          "h": 900,
+          "display": "flex"
+        },
+        "current": ["►\n              Overview"]
+      },
+      {
+        "name": "bottom",
+        "url": "https://longhoang-lyo.com/work/hanzii",
+        "title": "Work | Long Hoang",
+        "scrollY": 0,
+        "column": {
+          "scrollTop": 32144,
+          "scrollHeight": 33046,
+          "clientHeight": 900,
+          "class": "case-study-page__images-column lenis lenis-scrolling lenis-smooth"
+        },
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 900,
+          "display": "flex"
+        },
+        "toc": {
+          "x": 1160,
+          "y": 0,
+          "w": 280,
+          "h": 900,
+          "display": "flex"
+        },
+        "current": ["►\n              Business Impact"]
+      },
+      {
+        "name": "next",
+        "url": "https://longhoang-lyo.com/work/niubii",
+        "title": "Niubii Case Study – Long Hoang (Lyo)",
+        "scrollY": 0,
+        "column": {
+          "scrollTop": 0,
+          "scrollHeight": 19375,
+          "clientHeight": 900,
+          "class": "case-study-page__images-column lenis"
+        },
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 900,
+          "display": "flex"
+        },
+        "toc": {
+          "x": 1160,
+          "y": 0,
+          "w": 280,
+          "h": 900,
+          "display": "flex"
+        },
+        "current": ["►\n              Product Context & Opportunity"]
+      },
+      {
+        "name": "back",
+        "url": "https://longhoang-lyo.com/work/hanzii",
+        "title": "Hanzii Dict Case Study – Long Hoang (Lyo)",
+        "scrollY": 0,
+        "column": {
+          "scrollTop": 0,
+          "scrollHeight": 0,
+          "clientHeight": 0,
+          "class": "case-study-page__images-column"
+        },
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none"
+        },
+        "toc": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "flex"
+        },
+        "current": ["►\n              Product Context & Opportunity"]
+      }
+    ],
+    "pageExceptions": [],
+    "requestFailureCount": 0,
+    "conclusion": "Next showed Niubii at scrollTop 0. Back restored Hanzii URL but closed the project overlay (display none), retaining Niubii current section in hidden DOM."
+  },
+  "worldAttempts": {
+    "firstIntroAttempt": {
+      "states": [
+        {
+          "label": "intro-ready",
+          "url": "https://longhoang-lyo.com/",
+          "canvasMarkers": [
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            },
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            }
+          ],
+          "htmlClass": "intro-overlay-active"
+        }
+      ],
+      "result": "Rendered intro with live world. Pointer click timed out waiting for entry button stability.",
+      "pageExceptions": []
+    },
+    "keyboardFollowup": {
+      "actions": [
+        "Focus actual entry button and press Enter",
+        "Wait then capture",
+        "Press Escape and capture",
+        "Hold W for one second then capture"
+      ],
+      "states": [
+        {
+          "rawCaptureLabel": "intro-ready",
+          "htmlClass": "intro-overlay-active",
+          "canvasMarkers": [
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            },
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            }
+          ]
+        },
+        {
+          "rawCaptureLabel": "entered",
+          "htmlClass": "intro-overlay-active",
+          "canvasMarkers": [
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            },
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            }
+          ]
+        },
+        {
+          "rawCaptureLabel": "escape",
+          "htmlClass": "intro-overlay-active",
+          "canvasMarkers": [
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            },
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            }
+          ]
+        },
+        {
+          "rawCaptureLabel": "movement",
+          "htmlClass": "intro-overlay-active",
+          "canvasMarkers": [
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            },
+            {
+              "w": 1440,
+              "h": 900,
+              "engine": "three.js r183 webgpu"
+            }
+          ]
+        }
+      ],
+      "result": "Rendered scene and dotted transition captured; intro-overlay-active remained. Capture labels entered/movement are action labels, not proof of completed entry or player control.",
+      "pageExceptions": [],
+      "requestFailureCount": 0,
+      "driverWarnings": [
+        "[.WebGL-0x222c001f1600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now.",
+        "[.WebGL-0x222c001f1600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now. (this message will no longer repeat)",
+        "[.WebGL-0x222c001f1600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x222c001f1600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      ]
+    },
+    "unverified": [
+      "Successful free player movement",
+      "Combat / grab / throw",
+      "Sound playback quality",
+      "Full game traversal"
+    ]
+  },
+  "rendererCaution": "Canvas marker says three.js r183 webgpu; inspected main renderer and separate transition renderer explicitly configure forceWebGL true. Do not infer active backend from marker alone.",
+  "limitations": [
+    "Mobile is viewport/touch-capability emulation; scrolling used wheel input, not physical swipe.",
+    "No comprehensive screen-reader, keyboard, contrast, cross-browser, memory or performance audit.",
+    "Public deployed modules inspected, not private repository or authoring pipeline.",
+    "Awwwards reference image supports presentation only.",
+    "No form, message, item submission or external project action performed."
+  ],
+  "exampleValidation": {
+    "javascriptBlocksParsed": 4,
+    "checksPassed": 17,
+    "checks": [
+      "World and About are distinct route states",
+      "Valid project and trailing slash resolve",
+      "Unknown and nested project paths do not silently select a project",
+      "Back reconciliation can restore A after B without toggling modal state",
+      "Independent pause owners and render policy",
+      "Duplicate release is harmless",
+      "Same-type owners get unique leases",
+      "Substeps accumulate without premature simulation",
+      "Large frame debt is bounded and dropped explicitly",
+      "Reset prevents paused time residue carrying over",
+      "Invalid simulation settings and elapsed time rejected",
+      "Initial nested-container section tracked",
+      "Reduced-motion jump targets nested container without document scroll",
+      "Native scrolling updates current section",
+      "Disposal cancels pending work and removes scroll/click handlers",
+      "Mismatched section mapping rejected",
+      "Original mask compiles and links in a WebGL2 shader program"
+    ],
+    "limitations": [
+      "Pure route projection checked; full router pseudocode not executed",
+      "Physics scheduling checked, not Rapier integration",
+      "Native scroll example checked in headless Chromium only",
+      "GLSL compilation/linking checked; visual quality and GPU performance not benchmarked"
+    ],
+    "glslBlocksCompiledAndLinked": 1
+  },
+  "redistribution": "No original artwork, fonts, third-party code or videos committed. Raw responses, browser scripts, fixtures and screenshots retained outside repository."
+}
