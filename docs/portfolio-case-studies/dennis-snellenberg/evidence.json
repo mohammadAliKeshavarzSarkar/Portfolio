@@ -1,0 +1,335 @@
+{
+  "researchDate": "2026-11-17",
+  "researchTimezone": "Asia/Tehran",
+  "portfolio": "Dennis Snellenberg",
+  "originalURL": "https://dennissnellenberg.com/",
+  "awwwardsURL": "https://www.awwwards.com/sites/dennis-snellenberg",
+  "creditsAsListed": ["Dennis Snellenberg"],
+  "listingStatus": "Site of the Day - Apr 4, 2022",
+  "versionBoundary": "Live delivery inspected on research date; not asserted identical to 2022 awarded version",
+  "sourceSnapshots": [
+    {
+      "file": "category.html",
+      "url": "https://www.awwwards.com/websites/portfolio/",
+      "sha256": "258f483667b42d3d46c7582f30e7993aafbb482b9b66a87cbdbf540565f2b5fb",
+      "bytes": 606972,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "listing.html",
+      "url": "https://www.awwwards.com/sites/dennis-snellenberg",
+      "sha256": "022f4c05abb7c7d3a1351280185fd0fdf1e5cb89d3a7dcdf430f5bc3bbbb2eaf",
+      "bytes": 357937,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "home.html",
+      "url": "https://dennissnellenberg.com/",
+      "sha256": "ea72f09584473df868de0aeefd7aaaf312562e48b22ebdd5d9dfd737500d6c87",
+      "bytes": 39394,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "index-new.js",
+      "url": "https://dennissnellenberg.com/assets/js/index-new.js",
+      "sha256": "7d997e8eed26c01228065ae0fe55a71ee812348429e5e54361947dc2407604aa",
+      "bytes": 36812,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "locomotive-scroll.min.js",
+      "url": "https://dennissnellenberg.com/assets/js/locomotive-scroll.min.js",
+      "sha256": "351253ae16600278c6a8b3f4945424faeb2566b955e4cfb3dde7d61823194005",
+      "bytes": 47164,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "styleguide.css",
+      "url": "https://dennissnellenberg.com/assets/css/styleguide.css",
+      "sha256": "c120b3a18dbca11895d245f14851867aecc8d898c32e7d3cce0215504eca9fb5",
+      "bytes": 28166,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "components.css",
+      "url": "https://dennissnellenberg.com/assets/css/components.css",
+      "sha256": "62ed2651a7de51cae15e6fbca00f88f606e63c19b482d096e5036ab63e4f6eae",
+      "bytes": 2544,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "style-new.css",
+      "url": "https://dennissnellenberg.com/assets/css/style-new.css",
+      "sha256": "f671acedd82a707209dc9f8d82c16d2d08816bb0215c72bc6e0b094d981a81aa",
+      "bytes": 76145,
+      "hashIdentifies": "retrieved body; not formatted"
+    },
+    {
+      "file": "locomotive-scroll.css",
+      "url": "https://dennissnellenberg.com/assets/css/locomotive-scroll.css",
+      "sha256": "69a6ff170d061bfcc2773ff16fce6a2a1c5106f8aba1d2f682d7418f85c7f314",
+      "bytes": 1664,
+      "hashIdentifies": "retrieved body; not formatted"
+    }
+  ],
+  "sourceAnchors": {
+    "index-new.js": [
+      "initLoaderHome",
+      "pageTransitionIn",
+      "pageTransitionOut",
+      "initPageTransitions / initSmoothScroll",
+      "initHamburgerNav",
+      "initMagneticButtons",
+      "initStickyCursorWithDelay",
+      "initVisualFilter",
+      "initCookieViews",
+      "initScrollLetters",
+      "initScrolltriggerAnimations"
+    ],
+    "styleguide.css": [
+      "@font-face Dennis Sans mappings",
+      ":root colors and spacing"
+    ],
+    "style-new.css": [
+      "fixed-nav",
+      "mouse-pos-list-image",
+      "work-tiles and responsive media rules"
+    ]
+  },
+  "transport": "Headless Chromium /usr/bin/chromium; TLS-verified Playwright API route.fetch + fulfill via configured proxy. Native browser networking/streaming timing not preserved. No performance benchmark.",
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "pageExceptions": [],
+    "requestFailureCount": 0,
+    "gsapRuntimeVersion": "3.9.1",
+    "wheel": {
+      "input": "14 wheel events after moving pointer into page",
+      "nativeScrollY": 0,
+      "rootTransform": "none",
+      "firstSectionTransform": "matrix(1, 0, 0, 1, 0, -672)"
+    },
+    "menu": {
+      "openMainClasses": "main no-touch scrolled nav-active",
+      "afterEscapeMainClasses": "main no-touch scrolled",
+      "controls": [
+        {
+          "tag": "DIV",
+          "class": "btn btn-hamburger active",
+          "tabindex": null,
+          "role": null,
+          "expanded": null
+        },
+        {
+          "tag": "LI",
+          "class": "btn btn-link btn-menu active",
+          "tabindex": null,
+          "role": null,
+          "expanded": null
+        }
+      ]
+    },
+    "navigation": [
+      {
+        "label": "home",
+        "url": "https://dennissnellenberg.com/",
+        "main": "home",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      },
+      {
+        "label": "work",
+        "url": "https://dennissnellenberg.com/work",
+        "main": "work",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 4
+      },
+      {
+        "label": "project",
+        "url": "https://dennissnellenberg.com/work/twice",
+        "main": "work-single",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      },
+      {
+        "label": "back-work",
+        "url": "https://dennissnellenberg.com/work",
+        "main": "work",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 4
+      }
+    ],
+    "sameDocumentNavigation": {
+      "sentinelBefore": "same-document",
+      "sentinelAfterWork": "same-document",
+      "sentinelLostOnExplicitReload": null
+    },
+    "filters": {
+      "work": 11,
+      "design": 7,
+      "columns": 11
+    },
+    "viewPreference": {
+      "afterSelection": [" view=columns"],
+      "afterReload": [" view=columns"],
+      "afterReloadViewClasses": [
+        "section work-grid small-work-grid grid-fade grid-rows-part",
+        "section work-tiles grid-fade grid-columns-part visible"
+      ],
+      "afterRowsSelection": [" view=rows"]
+    },
+    "preview": "Inspected screenshot after hovering first visible row shows TWICE image and View control; following link opened /work/twice. Only first preview selection exercised."
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "pageExceptions": [],
+    "requestFailureCount": 0,
+    "emulated": true,
+    "hasTouch": true,
+    "physicalGesturesTested": false,
+    "routes": [
+      {
+        "label": "home",
+        "url": "https://dennissnellenberg.com/",
+        "main": "home",
+        "containerCount": 1,
+        "scrollbarCount": 0,
+        "triggerCount": 6
+      },
+      {
+        "label": "menu",
+        "url": "https://dennissnellenberg.com/",
+        "main": "home",
+        "containerCount": 1,
+        "scrollbarCount": 0,
+        "triggerCount": 6
+      },
+      {
+        "label": "work",
+        "url": "https://dennissnellenberg.com/work",
+        "main": "work",
+        "containerCount": 1,
+        "scrollbarCount": 0,
+        "triggerCount": 4
+      }
+    ],
+    "workView": [
+      {
+        "class": "section work-grid small-work-grid grid-fade grid-rows-part visible",
+        "display": "none"
+      },
+      {
+        "class": "section work-tiles grid-fade grid-columns-part",
+        "display": "block"
+      }
+    ],
+    "previewDisplay": "none",
+    "visualInspection": "Home portrait/name crop and bottom role; Work heading, category pills and first image card visible."
+  },
+  "reducedMotion": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "pageExceptions": [],
+    "requestFailureCount": 0,
+    "preference": "reduce",
+    "nameTransformsSampled600msApart": [
+      "matrix(1, 0, 0, 1, -910.567, 0)",
+      "matrix(1, 0, 0, 1, -983.897, 0)"
+    ],
+    "firstSectionAfterWheel": "matrix(1, 0, 0, 1, 0, -672)",
+    "nativeScrollYAfterWheel": 0,
+    "aboutCoverTopDuringTransition": 0,
+    "repeatedRoutes": [
+      {
+        "label": "about",
+        "url": "https://dennissnellenberg.com/about",
+        "main": "about",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      },
+      {
+        "label": "home-return",
+        "url": "https://dennissnellenberg.com/",
+        "main": "home",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      },
+      {
+        "label": "about-repeat",
+        "url": "https://dennissnellenberg.com/about",
+        "main": "about",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      },
+      {
+        "label": "home-repeat",
+        "url": "https://dennissnellenberg.com/",
+        "main": "home",
+        "containerCount": 1,
+        "scrollbarCount": 1,
+        "triggerCount": 8
+      }
+    ],
+    "sourceSearchScope": "No prefers-reduced-motion match in index-new.js, styleguide.css, components.css, style-new.css; not every dependency."
+  },
+  "javascriptDisabled": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "pageExceptions": [],
+    "requestFailureCount": 0,
+    "coverTop": 0,
+    "visualResult": "Dark viewport; content exists in HTML but remains obscured by loader."
+  },
+  "automationLimits": [
+    "Initial desktop attempts: one wheel event did not reveal hamburger; selector timed out. Repeated wheel inputs resolved it.",
+    "Later About selector selected offscreen fixed-navigation anchor. Follow-up used open menu and header anchors successfully.",
+    "No memory-leak conclusion from stable container/scrollbar/trigger counts.",
+    "No complete keyboard, screen-reader, physical touch, cross-browser, contrast, media-playback or performance audit."
+  ],
+  "retainedArtifacts": "Raw responses, inspection scripts and screenshots retained outside repository; no third-party source or artwork redistributed.",
+  "exampleValidation": {
+    "javascriptBlocksParsed": 5,
+    "checksPassed": 18,
+    "checks": [
+      "Frame-rate independent convergence",
+      "Zero elapsed time is stationary",
+      "Strip offset uses full strip height",
+      "Empty and missing preview selections hide",
+      "Filtering preserves preview IDs and resets invalid view",
+      "All category and columns preference retained",
+      "Unavailable storage falls back and writes do not throw",
+      "Storage validates values",
+      "Scope disposes in reverse order exactly once and aborts events",
+      "Cleanup errors do not prevent remaining cleanup",
+      "Resource acquired after disposal is released immediately",
+      "Native scroll updates dedicated visual",
+      "Progress changes with section viewport geometry",
+      "Live reduced-motion change restores baseline",
+      "Dispose cancels queued updates and future listeners",
+      "Dialog opens from real button",
+      "Escape closes dialog and restores opener focus",
+      "Menu disposal closes dialog and removes trigger listener"
+    ],
+    "limitations": [
+      "Original teaching examples only; no complete router integration",
+      "Pseudocode not executed",
+      "Headless Chromium only"
+    ]
+  }
+}
