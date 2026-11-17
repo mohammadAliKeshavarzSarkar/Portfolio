@@ -2,9 +2,10 @@
 
 Independent educational analyses of portfolios featured on Awwwards. Each study credits the original creators, distinguishes evidence from inference, and contains original teaching examples rather than a reproduction of the website.
 
-| Research date    | Portfolio                       | Main subjects                                                                                      | Investigation scope                                                                                           |
-| ---------------- | ------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 16 November 2026 | [Sztanki's Portfolio](sztanki/) | Camera-driven navigation, scene transitions, readiness gates, GPU quality and accessible fallbacks | Public-source inspection and Awwwards-published images; live Chromium attempts encountered rendering failures |
+| Research date    | Portfolio                                 | Main subjects                                                                                      | Investigation scope                                                                                           |
+| ---------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 16 November 2026 | [Sztanki's Portfolio](sztanki/)           | Camera-driven navigation, scene transitions, readiness gates, GPU quality and accessible fallbacks | Public-source inspection and Awwwards-published images; live Chromium attempts encountered rendering failures |
+| 17 November 2026 | [Dennis Snellenberg](dennis-snellenberg/) | Scroll coordinates, route lifecycle, pointer previews, filters and motion preferences              | Public-source inspection plus desktop, emulated mobile, reduced-motion and no-JavaScript browser checks       |
 
 Read each portfolio's `README.md`, then `architecture.md` and `implementation-notes.md`. Research dates use Asia/Tehran. Evidence limitations are part of the findings, not a certification of accessibility, performance or compatibility.
 
