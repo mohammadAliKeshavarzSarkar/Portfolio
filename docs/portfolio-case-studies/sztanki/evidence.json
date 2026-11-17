@@ -1,0 +1,537 @@
+{
+  "researchDate": "2026-11-16",
+  "researchTimezone": "Asia/Tehran",
+  "portfolio": "Sztanki's Portfolio",
+  "originalURL": "https://www.sztanki.com/",
+  "awwwardsURL": "https://www.awwwards.com/sites/sztankis-portfolio",
+  "creditsAsListed": [
+    "Ginrin",
+    "Sztanki"
+  ],
+  "listingStatusAtInspection": "Nominee - Nov 14, 2026",
+  "sourceSnapshots": [
+    {
+      "id": "listing",
+      "url": "https://www.awwwards.com/sites/sztankis-portfolio",
+      "sha256": "e6bb88c576854e8785a60b11893a236eed405da733504eaa0e0d0b28e1e821b0",
+      "bytes": 274750,
+      "hashIdentifies": "downloaded response body; no formatting"
+    },
+    {
+      "id": "html",
+      "url": "https://www.sztanki.com/",
+      "sha256": "afcebd87e0938073d76caa705699cce5a0594fd3168926d2e1f97effc17678c6",
+      "bytes": 1570,
+      "hashIdentifies": "downloaded response body; no formatting"
+    },
+    {
+      "id": "application",
+      "url": "https://www.sztanki.com/assets/js/index-Dk_P2Bqq.js",
+      "sha256": "0f2827c7527adbd12a8c7d14705722571a14afe3a9d81989d83d7e2de1384ed2",
+      "bytes": 698524,
+      "hashIdentifies": "downloaded response body; no formatting"
+    },
+    {
+      "id": "css",
+      "url": "https://www.sztanki.com/assets/css/index-Y7hPqSnr.css",
+      "sha256": "72e321f97b06b73aa6ae8bd1d61a3ff1e00d78c5da2b018a20680d4b51e940a3",
+      "bytes": 698,
+      "hashIdentifies": "downloaded response body; no formatting"
+    }
+  ],
+  "browserTransport": "TLS-verified Playwright API route.fetch/fulfill using inherited CA and proxy; native browser network and streaming timing not preserved",
+  "observations": [
+    {
+      "id": "desktop",
+      "startedUTC": "2026-11-16T18:56:25.837Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "headless": true,
+      "emulatedMobile": false,
+      "extraChromiumArguments": [],
+      "motionPreference": "no-preference",
+      "states": [
+        {
+          "label": "entry",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": []
+        },
+        {
+          "label": "wheel",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": []
+        },
+        {
+          "label": "keyboard",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": []
+        }
+      ],
+      "pageErrors": [
+        {
+          "message": "Cannot read properties of undefined (reading 'isStorageInstancedBufferAttribute')",
+          "count": 4
+        }
+      ],
+      "consoleMessageCount": 113,
+      "selectedConsoleMessages": [
+        "No available adapters.",
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "THREE.WebGLProgram: Shader Error 1281 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:134: 'x' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'y' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'z' :  field selection requires structure, vector, or interfac",
+        "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:134: 'x' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'y' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'z' :  field selection requires structure, vector, or interfac"
+      ],
+      "requestFailureCount": 0,
+      "requestFailureKinds": {},
+      "outcome": "Loader and shader errors"
+    },
+    {
+      "id": "mobile",
+      "startedUTC": "2026-11-16T18:56:27.511Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "headless": true,
+      "emulatedMobile": true,
+      "extraChromiumArguments": [],
+      "motionPreference": "no-preference",
+      "states": [
+        {
+          "label": "entry",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 390,
+              "height": 844,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"390\" height=\"844\" style=\"display: bl",
+          "canvasContexts": []
+        },
+        {
+          "label": "wheel",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 390,
+              "height": 844,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"390\" height=\"844\" style=\"display: bl",
+          "canvasContexts": []
+        },
+        {
+          "label": "keyboard",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 390,
+              "height": 844,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"390\" height=\"844\" style=\"display: bl",
+          "canvasContexts": []
+        }
+      ],
+      "pageErrors": [
+        {
+          "message": "Cannot read properties of undefined (reading 'isStorageInstancedBufferAttribute')",
+          "count": 4
+        }
+      ],
+      "consoleMessageCount": 113,
+      "selectedConsoleMessages": [
+        "No available adapters.",
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "THREE.WebGLProgram: Shader Error 1281 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:134: 'x' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'y' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'z' :  field selection requires structure, vector, or interfac",
+        "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:134: 'x' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'y' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:134: 'z' :  field selection requires structure, vector, or interfac"
+      ],
+      "requestFailureCount": 0,
+      "requestFailureKinds": {},
+      "outcome": "Loader and shader errors"
+    },
+    {
+      "id": "desktop-webgpu",
+      "startedUTC": "2026-11-16T18:58:11.008Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "headless": true,
+      "emulatedMobile": false,
+      "extraChromiumArguments": [
+        "--enable-unsafe-webgpu",
+        "--use-angle=swiftshader"
+      ],
+      "motionPreference": "no-preference",
+      "states": [
+        {
+          "label": "entry",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": [
+            {
+              "type": "webgl2",
+              "created": true
+            },
+            {
+              "type": "webgpu",
+              "created": true
+            }
+          ]
+        },
+        {
+          "label": "wheel",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": [
+            {
+              "type": "webgl2",
+              "created": true
+            },
+            {
+              "type": "webgpu",
+              "created": true
+            }
+          ]
+        },
+        {
+          "label": "keyboard",
+          "url": "https://www.sztanki.com/",
+          "bodyTextLength": 0,
+          "anchorCount": 0,
+          "buttonCount": 0,
+          "canvases": [
+            {
+              "width": 1440,
+              "height": 900,
+              "class": ""
+            }
+          ],
+          "activeElement": "<body>\n  <div class=\"webgl fixed\"><canvas data-engine=\"three.js r186 webgpu\" width=\"1440\" height=\"900\" style=\"display: b",
+          "canvasContexts": [
+            {
+              "type": "webgl2",
+              "created": true
+            },
+            {
+              "type": "webgpu",
+              "created": true
+            }
+          ]
+        }
+      ],
+      "pageErrors": [
+        {
+          "message": "Instance dropped in popErrorScope",
+          "count": 1
+        },
+        {
+          "message": "Failed to execute 'createBuffer' on 'GPUDevice': createBuffer failed, size (32) is too large for the implementation when mappedAtCreation == true",
+          "count": 1262
+        }
+      ],
+      "consoleMessageCount": 0,
+      "selectedConsoleMessages": [],
+      "requestFailureCount": 0,
+      "requestFailureKinds": {},
+      "outcome": "Blank capture and WebGPU device/buffer errors"
+    },
+    {
+      "id": "direct-work",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "url": "https://www.sztanki.com/work/",
+        "title": "Portfolio of Attila Sztankovics",
+        "text": "",
+        "canvas": 1,
+        "links": 0,
+        "buttons": 0
+      },
+      "pageErrors": [],
+      "selectedConsoleMessages": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:103: ';' : syntax error\n\n  98: \t\n  99: \n  100: \t// flow\n  101: \t// code\n  102: \n> 103: \tnodeVarying4 = /* Recursion detected"
+      ],
+      "requestFailureCount": 0,
+      "captureError": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n",
+      "outcome": "Work screenshot timed out after shader diagnostics"
+    },
+    {
+      "id": "direct-contact",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "url": "https://www.sztanki.com/contact/",
+        "title": "Portfolio of Attila Sztankovics",
+        "text": "",
+        "canvas": 1,
+        "links": 0,
+        "buttons": 0
+      },
+      "pageErrors": [],
+      "selectedConsoleMessages": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:160: ';' : syntax error\n\n  155: \t\n  156: \n  157: \t// flow\n  158: \t// code\n  159: \n> 160: \tnodeVarying4 = /* Recursion detect"
+      ],
+      "requestFailureCount": 0,
+      "captureError": null,
+      "outcome": "Partial canvas rendering with shader diagnostics"
+    },
+    {
+      "id": "direct-about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "url": "https://www.sztanki.com/about/",
+        "title": "Portfolio of Attila Sztankovics",
+        "text": "",
+        "canvas": 1,
+        "links": 0,
+        "buttons": 0
+      },
+      "pageErrors": [
+        "Cannot read properties of undefined (reading 'isStorageInstancedBufferAttribute')"
+      ],
+      "selectedConsoleMessages": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "THREE.WebGLProgram: Shader Error 1281 - VALIDATE_STATUS false\n\nProgram Info Log: Vertex shader is not compiled.\nVERTEX\n\nERROR: 0:157: 'x' :  field selection requires structure, vector, or interface block on left hand side\nERROR: 0:157: 'y' :  field s"
+      ],
+      "requestFailureCount": 0,
+      "captureError": null,
+      "outcome": "Partial canvas rendering with shader diagnostics"
+    },
+    {
+      "id": "contact-interaction-follow-up",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "started": "2026-11-16T19:05:59.484Z",
+      "steps": [
+        {
+          "label": "initial",
+          "url": "https://www.sztanki.com/contact/",
+          "scrollY": 0,
+          "text": "",
+          "active": "BODY",
+          "focusable": 0
+        },
+        {
+          "label": "wheel",
+          "url": "https://www.sztanki.com/contact/",
+          "scrollY": 0,
+          "text": "",
+          "active": "BODY",
+          "focusable": 0
+        },
+        {
+          "label": "tab",
+          "url": "https://www.sztanki.com/contact/",
+          "scrollY": 0,
+          "text": "",
+          "active": "BODY",
+          "focusable": 0
+        },
+        {
+          "label": "about-click",
+          "url": "https://www.sztanki.com/about/",
+          "scrollY": 0,
+          "text": "",
+          "active": "BODY",
+          "focusable": 0
+        },
+        {
+          "label": "back",
+          "url": "https://www.sztanki.com/contact/",
+          "scrollY": 0,
+          "text": "",
+          "active": "BODY",
+          "focusable": 0
+        }
+      ],
+      "errors": [
+        "Cannot read properties of undefined (reading 'isStorageInstancedBufferAttribute')"
+      ],
+      "failures": [],
+      "finished": "2026-11-16T19:07:17.261Z",
+      "actions": [
+        "Open /contact/ and wait 18 seconds",
+        "Four wheel events with deltaY 600; wait between inputs",
+        "Six Tab key presses",
+        "Click visible About navigation at viewport x117 y45",
+        "Wait 5.5 seconds; capture",
+        "Browser Back; wait 4.5 seconds; capture"
+      ],
+      "visualReview": {
+        "initial": "Navigation visible; central scene content not yet in view",
+        "wheel": "Curved text panel and five icon tiles visible; native scrollY 0",
+        "about-click": "URL /about/ while Contact panel remains visible in sampled screenshot"
+      },
+      "outcome": "Partial Contact content and URL/history handling observed; successful destination rendering not established"
+    }
+  ],
+  "publishedImagesInspected": [
+    {
+      "page": "https://www.awwwards.com/inspiration/about-page-sztankis-portfolio",
+      "image": "https://assets.awwwards.com/awards/element/2026/10/6ae2545f7cd48805867850.jpg"
+    },
+    {
+      "page": "https://www.awwwards.com/inspiration/work-page-sztankis-portfolio",
+      "image": "https://assets.awwwards.com/awards/element/2026/10/6ae254bf7dc99750944701.jpg"
+    },
+    {
+      "page": "https://www.awwwards.com/inspiration/contact-page-sztankis-portfolio",
+      "image": "https://assets.awwwards.com/awards/element/2026/10/6ae254bf89fa8063481781.jpg"
+    }
+  ],
+  "sourceLocators": {
+    "rendering": "HTML modulepreload entries; application renderer _boot; virtual stage Bp",
+    "routing": "getPageFromURL, resolvePage, setURL, initRouter, onPopState",
+    "sceneReadiness": "preparePage, buildPage, readyPages, prepareNextWhenQuiet, stopAtFade",
+    "transition": "updateScrollFade, fadeTo, uScene1/uScene2/uProgress",
+    "input": "_wheelDelta, fling, scrollBy, getPointAt, rayCast",
+    "quality": "dairamon:device-profiler, Hf.define, pixelRatio array ov",
+    "typography": "Vb role styles, exconBoldFont, antonioSemiBoldFont",
+    "responsive": "layoutMobile, applyYaw, orientation === portrait",
+    "boundedSearch": "No prefers-reduced-motion match in inspected application bundle; other resources and successful runtime behavior not established"
+  },
+  "documentationValidation": {
+    "parsedJavaScriptBlocks": 4,
+    "tests": 12,
+    "results": [
+      {
+        "name": "equal elapsed time gives equal smoothing at 60 and 120 Hz",
+        "pass": true
+      },
+      {
+        "name": "zero elapsed time and direct-motion branch",
+        "pass": true
+      },
+      {
+        "name": "smoothing stays between input and target in either direction",
+        "pass": true
+      },
+      {
+        "name": "transition remains bounded before and after its interval",
+        "pass": true
+      },
+      {
+        "name": "transition midpoint and invalid interval",
+        "pass": true
+      },
+      {
+        "name": "concurrent preparation shares a single build and result",
+        "pass": true
+      },
+      {
+        "name": "failed preparation is evicted and can be retried",
+        "pass": true
+      },
+      {
+        "name": "different preparation keys remain independent",
+        "pass": true
+      },
+      {
+        "name": "successful graphics starts and returns its runtime",
+        "pass": true
+      },
+      {
+        "name": "failed graphics probe disposes and exposes fallback",
+        "pass": true
+      },
+      {
+        "name": "startup failure is handled after a successful probe",
+        "pass": true
+      },
+      {
+        "name": "construction and cleanup failures remain observable",
+        "pass": true
+      }
+    ],
+    "scope": "Pure examples only; no Three.js, DOM, router or shader integration testing",
+    "testCodeLocation": "Temporary research harness extracted JavaScript fences; no website or integration test shipped"
+  },
+  "limits": [
+    "No successful full live traversal",
+    "No real-device mobile interaction validation",
+    "No reduced-motion runtime validation",
+    "No performance or accessibility certification",
+    "No shader parity or cross-browser compatibility claim",
+    "Third-party images and bundles inspected locally, not included in the contribution"
+  ]
+}
