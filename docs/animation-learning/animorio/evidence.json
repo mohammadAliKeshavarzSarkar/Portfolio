@@ -1,0 +1,416 @@
+{
+  "researchDate": "2026-11-18",
+  "timezone": "Asia/Tehran",
+  "catalogURL": "https://animorio.com/en/animations/",
+  "catalogSHA256": "ed9bfc2445152f5935dc5957434d4be07a291d2f43e36e4ba7d4104020710e92",
+  "catalogCount": 1957,
+  "counts": {
+    "genere": {
+      "animazione": 970,
+      "componente": 987
+    },
+    "difficolta": {
+      "impegnativa": 690,
+      "media": 1215,
+      "facile": 52
+    },
+    "tipo": {
+      "webgl": 115,
+      "3d": 143,
+      "scroll": 216,
+      "testo": 476,
+      "hover": 1085,
+      "transizioni": 553,
+      "immagini": 149,
+      "fisica": 489,
+      "svg": 552,
+      "intro": 71,
+      "sfondi": 75
+    },
+    "tecnica": {
+      "webgl": 118,
+      "gsap": 1943,
+      "canvas": 390,
+      "css": 1238
+    },
+    "accesso": {
+      "gratis": 1957
+    }
+  },
+  "licenseURL": "https://animorio.com/en/license/",
+  "licenseHTMLSHA256": "a887ce68f14a90c8c535b61430030d541be4782fc5b95bb1b9fea5caa94b4484",
+  "method": "Parsed public catalog card attributes; checked 1957 unique URLs against JSON-LD ItemList. Read ten complete standalone scripts and relevant markup/styles from linked public demos. No gated ZIP downloads; no third-party implementation source stored in repository.",
+  "selected": [
+    {
+      "slug": "projects-with-elastic-lines",
+      "title": "Projects with elastic lines",
+      "url": "https://animorio.com/en/animations/projects-with-elastic-lines/",
+      "demoURL": "https://animorio.com/demo/progetti-con-le-righe-elastiche/index.html",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/projects-with-elastic-lines/",
+          "bytes": 284931,
+          "sha256": "6ba583e646380f7bc16465b7e40c99cbbcac453777978b44109e815702181f0d"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/progetti-con-le-righe-elastiche/index.html",
+          "bytes": 4970,
+          "sha256": "b1fb5e0b42beff2a2c9978120351042eac7547aca93548fff22fcf7cb4148daa"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/progetti-con-le-righe-elastiche/style.css",
+          "bytes": 3898,
+          "sha256": "dfe5306aa308d94fa405e67e53abb8b8d60a21f06fc130166975389f6600afdb"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/progetti-con-le-righe-elastiche/script.js",
+          "bytes": 7535,
+          "sha256": "e1d55c5fd1d5bcc18aca0c72b2e52b9a62364c0967af57178914dc7d9458e63b"
+        }
+      ]
+    },
+    {
+      "slug": "magnetic-button",
+      "title": "The magnetic button",
+      "url": "https://animorio.com/en/animations/magnetic-button/",
+      "demoURL": "https://animorio.com/demo/pulsante-magnetico/index.html",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/magnetic-button/",
+          "bytes": 261964,
+          "sha256": "1751b329c14f3fd0546f517b43fb193b3693b554ba6c94d92d69e04ef546cdfa"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/pulsante-magnetico/index.html",
+          "bytes": 2572,
+          "sha256": "eb223b52dffd642f2aedbac8e158fb94c9dcfe367085886edb7846024187d83a"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/pulsante-magnetico/style.css",
+          "bytes": 3878,
+          "sha256": "7e96f6a1a0fa5b94479a64e3b98f00ad893ebdb98a451f8ec4a5cbc6da6e4bf6"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/pulsante-magnetico/script.js",
+          "bytes": 7233,
+          "sha256": "845bd8578f8cff91601c71c1ebf164c8ea14bc0a42251432600f09096ea48cf7"
+        }
+      ]
+    },
+    {
+      "slug": "menu-from-its-button",
+      "title": "Button menu",
+      "url": "https://animorio.com/en/animations/menu-from-its-button/",
+      "demoURL": "https://animorio.com/demo/menu-dal-pulsante/index.html",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/menu-from-its-button/",
+          "bytes": 262748,
+          "sha256": "a327375bc29812cb04f21fd42e24112b4d6937a9c9216ba78eed3d4e79b6e812"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/menu-dal-pulsante/index.html",
+          "bytes": 2444,
+          "sha256": "f9dc36a43362478125dd481ff440fdca224ab977ebe91081dc383966abfd1f1f"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/menu-dal-pulsante/style.css",
+          "bytes": 4192,
+          "sha256": "03473b832f7a147dbdc9b70297b75cd7ce4f4c43da2f17382dde0455853f9c70"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/menu-dal-pulsante/script.js",
+          "bytes": 9967,
+          "sha256": "c69117fc3df3136f47197f1258cc13f9def0ee292d3c17dc90a7919d0acba3e0"
+        }
+      ]
+    },
+    {
+      "slug": "stacking-cards",
+      "title": "Stacking cards",
+      "url": "https://animorio.com/en/animations/stacking-cards/",
+      "demoURL": "https://animorio.com/demo/carte-che-si-impilano/index.html?parti=0.42",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/stacking-cards/",
+          "bytes": 274670,
+          "sha256": "b5fe3018b64f14dc8f9aac8804141787aba305b698a9d4aaeab16c66fd69cd86"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/carte-che-si-impilano/index.html",
+          "bytes": 4676,
+          "sha256": "7479a5fbc5ac995965768dd23ff19b44859bff6d5f6e9daa7a8d33822c3e0e71"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/carte-che-si-impilano/style.css",
+          "bytes": 3787,
+          "sha256": "97bf2bd684be4225c51bc495af56c84423f5d8d623f897f307e17d6a08d5f91c"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/carte-che-si-impilano/script.js",
+          "bytes": 2741,
+          "sha256": "7c47045dd1d29cfcb80199340ff10eb450fd37544bf403928b728fecb7082e59"
+        }
+      ]
+    },
+    {
+      "slug": "reportage-horizontal-gallery",
+      "title": "The reportage gallery",
+      "url": "https://animorio.com/en/animations/reportage-horizontal-gallery/",
+      "demoURL": "https://animorio.com/demo/galleria-orizzontale-del-reportage/index.html?parti=0.5",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/reportage-horizontal-gallery/",
+          "bytes": 292661,
+          "sha256": "fc9ad5a5a34827f52f0996ed14c2585adeaaba5d4b159e34d97e8c5ee38576cf"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/galleria-orizzontale-del-reportage/index.html",
+          "bytes": 8706,
+          "sha256": "0950b1f1152f0b906f09c8e2941dc799a4fe430b5abf58e45819893c365d6566"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/galleria-orizzontale-del-reportage/style.css",
+          "bytes": 9750,
+          "sha256": "57279f0f9ab0c20dfdfc8cd66f534048afa5c651428bb191975d70f2352e8240"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/galleria-orizzontale-del-reportage/script.js",
+          "bytes": 10140,
+          "sha256": "10de96c217027b3dde8eabb0c575360221e116b4add85e449d0eb0c80344c734"
+        }
+      ]
+    },
+    {
+      "slug": "manifesto-that-lights-up-word-by-word-on-scroll",
+      "title": "The manifesto that lights up word by word on scroll",
+      "url": "https://animorio.com/en/animations/manifesto-that-lights-up-word-by-word-on-scroll/",
+      "demoURL": "https://animorio.com/demo/manifesto-che-si-accende-parola-per-parola-allo-scroll/index.html?parti=0.62",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/manifesto-that-lights-up-word-by-word-on-scroll/",
+          "bytes": 260821,
+          "sha256": "14e80c0801a114cf00bc1216dcfa789ab59f129de6ca8b3e8c97267597d8368e"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/manifesto-che-si-accende-parola-per-parola-allo-scroll/index.html",
+          "bytes": 2608,
+          "sha256": "3905f6c4961614865c88d1f4babb891681fc2996bfbc95df3f45ff0986bc3106"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/manifesto-che-si-accende-parola-per-parola-allo-scroll/style.css",
+          "bytes": 4159,
+          "sha256": "f2af8fb9745ebc62b8c469f1663a9a9b25057e69832bbce59d4493d1fb393f78"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/manifesto-che-si-accende-parola-per-parola-allo-scroll/script.js",
+          "bytes": 6526,
+          "sha256": "713ac2e694c96ccfcd7a9f4e15126332e19a58f7df1386f497b9fdb35f011773"
+        }
+      ]
+    },
+    {
+      "slug": "marquee-speeds-up-with-scroll",
+      "title": "Marquee that speeds up with scroll",
+      "url": "https://animorio.com/en/animations/marquee-speeds-up-with-scroll/",
+      "demoURL": "https://animorio.com/demo/nastro-che-accelera/index.html?parti=0.42",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/marquee-speeds-up-with-scroll/",
+          "bytes": 254582,
+          "sha256": "37a7f6a6efa7f5e0c2610c3c72750d860da555bccef1d35e4df777052bf4e4d6"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/nastro-che-accelera/index.html",
+          "bytes": 1692,
+          "sha256": "642788d4953a1febd0b618a857ddbfb89063750910cd14e65dff289447b9c67b"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/nastro-che-accelera/style.css",
+          "bytes": 1534,
+          "sha256": "79bea2c89183f03bef598911187dcf1e47be513478898ce196f6e08f4892a13d"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/nastro-che-accelera/script.js",
+          "bytes": 3219,
+          "sha256": "4520b04eb42c69e4b1d47ed72be5f8597864ca44cf9ec1e06bb3024d346f9150"
+        }
+      ]
+    },
+    {
+      "slug": "scribble-that-reveals",
+      "title": "The scribble that reveals",
+      "url": "https://animorio.com/en/animations/scribble-that-reveals/",
+      "demoURL": "https://animorio.com/demo/scarabocchio-che-svela/index.html",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/scribble-that-reveals/",
+          "bytes": 263388,
+          "sha256": "18915b09df5b18abb64093ce94a5e35e8483995570b352fab35306ecddcc4d68"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/scarabocchio-che-svela/index.html",
+          "bytes": 2526,
+          "sha256": "52589249fcb04c4e98f530972b8d559775a8445f9bfbb323755500bd9c8de68b"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/scarabocchio-che-svela/style.css",
+          "bytes": 6705,
+          "sha256": "8079a0c8d21132591d0e0ee473fb1f03a7616190efd42cd5b29d4fa6b199b156"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/scarabocchio-che-svela/script.js",
+          "bytes": 10212,
+          "sha256": "24ac52aef65a48ad687eb3f35a2a379253ea08befa19a4c39eaf935d782594ea"
+        }
+      ]
+    },
+    {
+      "slug": "melting-sheet",
+      "title": "The melting sheet",
+      "url": "https://animorio.com/en/animations/melting-sheet/",
+      "demoURL": "https://animorio.com/demo/carta-che-si-scioglie/index.html",
+      "status": "source-access-incomplete-503",
+      "scope": "Detail page and demo markup fetched; implementation review incomplete",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/melting-sheet/",
+          "bytes": 258375,
+          "sha256": "86d18e19b556df9ca89d60ef27ed19b3032ae84cd189a3305d8d2615e66b0476"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/carta-che-si-scioglie/index.html",
+          "bytes": 2383,
+          "sha256": "7331d8b567f2b4fed971173cbdc28f06d1c43699434eb3e4eb31565a3b305aba"
+        }
+      ]
+    },
+    {
+      "slug": "glass-word",
+      "title": "The glass word",
+      "url": "https://animorio.com/en/animations/glass-word/",
+      "demoURL": null,
+      "status": "source-access-incomplete-503",
+      "scope": "Catalog only",
+      "files": []
+    },
+    {
+      "slug": "ink-that-reveals",
+      "title": "Ink that reveals",
+      "url": "https://animorio.com/en/animations/ink-that-reveals/",
+      "demoURL": "https://animorio.com/demo/inchiostro-che-scopre/index.html",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/ink-that-reveals/",
+          "bytes": 249722,
+          "sha256": "6b05a659962302131f51a172a6c2a15d11fd0be7300d93e4d03dd0f5c8f7f9bc"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/inchiostro-che-scopre/index.html",
+          "bytes": 1141,
+          "sha256": "d7e1af0b916de0eb4b897b3ab2c8e276ad0b15a92281d0ceea60d1f70e2d0f47"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/inchiostro-che-scopre/style.css",
+          "bytes": 3003,
+          "sha256": "85365df16d1ab9b107b15718c88c205ef48bae4400491b412edc7033c7a1d74c"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/inchiostro-che-scopre/script.js",
+          "bytes": 25090,
+          "sha256": "6f003cc582ccd584cb0acb541d9104a1036afcd6dab3040e880567839fba6b12"
+        }
+      ]
+    },
+    {
+      "slug": "chapters-that-swap-askew-on-scroll",
+      "title": "Chapters that swap askew on scroll",
+      "url": "https://animorio.com/en/animations/chapters-that-swap-askew-on-scroll/",
+      "demoURL": "https://animorio.com/demo/capitoli-che-si-scambiano-di-sbieco-allo-scroll/index.html?parti=0.45",
+      "status": "script-reviewed",
+      "scope": "Complete standalone script read; relevant markup and styles inspected. React/Vue adapters not reviewed.",
+      "files": [
+        {
+          "file": "detail.html",
+          "url": "https://animorio.com/en/animations/chapters-that-swap-askew-on-scroll/",
+          "bytes": 290800,
+          "sha256": "3528297ae422601ff4bd1f45c82334c8804aa829732c904fc9eab51e5ec5d3e5"
+        },
+        {
+          "file": "index.html",
+          "url": "https://animorio.com/demo/capitoli-che-si-scambiano-di-sbieco-allo-scroll/index.html",
+          "bytes": 6606,
+          "sha256": "0a1f9faaf32b05bd4633419caa4b74206de59758609d6d5e45a312ce2a598bf5"
+        },
+        {
+          "file": "style.css",
+          "url": "https://animorio.com/demo/capitoli-che-si-scambiano-di-sbieco-allo-scroll/style.css",
+          "bytes": 5812,
+          "sha256": "d562619fdf876198bd971e77bcc9ed4f6fbb8abac4a05fedeea05a98f06e13cd"
+        },
+        {
+          "file": "script.js",
+          "url": "https://animorio.com/demo/capitoli-che-si-scambiano-di-sbieco-allo-scroll/script.js",
+          "bytes": 8927,
+          "sha256": "bafa1da7f7b6296183f382f39cfa6c0bfe939a6f2d5a8fd8568dc2c3f2e87fee"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-18",
+  "browser": "156.0.8078.79",
+  "results": [
+    {
+      "slug": "menu-from-its-button",
+      "mode": "desktop-normal",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0"
+      },
+      "open": {
+        "expanded": "true",
+        "inert": false,
+        "focus": "Work",
+        "locked": true
+      },
+      "closed": {
+        "expanded": "false",
+        "inert": true,
+        "focus": "Menu\n      Close\n    \n    Open the menu",
+        "locked": false
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "menu-from-its-button",
+      "mode": "mobile-emulation-reduced",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0"
+      },
+      "open": {
+        "expanded": "true",
+        "inert": false,
+        "focus": "Work",
+        "locked": true
+      },
+      "closed": {
+        "expanded": "false",
+        "inert": true,
+        "focus": "Menu\n      Close\n    \n    Open the menu",
+        "locked": false
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "magnetic-button",
+      "mode": "desktop-normal",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0"
+      },
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "hover": "matrix(1, 0, 0, 1, 28.99, 9.66)",
+      "released": "matrix(1, 0, 0, 1, 0, 0)",
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "magnetic-button",
+      "mode": "mobile-emulation-reduced",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0"
+      },
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "hover": "matrix(1, 0, 0, 1, 0, 0)",
+      "released": "matrix(1, 0, 0, 1, 0, 0)",
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "stacking-cards",
+      "mode": "desktop-normal",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0",
+        "scrollTrigger": "3.15.0"
+      },
+      "before": {
+        "scrollY": 1442,
+        "rootClass": "",
+        "bodyClass": "",
+        "cards": [
+          {
+            "transform": "matrix(0.929722, -0.0227219, 0.0227219, 0.929722, 0, 0)",
+            "top": 92.91265869140625
+          },
+          {
+            "transform": "matrix(0.974762, 0.00858659, -0.00858659, 0.974762, 0, 0)",
+            "top": 118.29852294921875
+          },
+          {
+            "transform": "none",
+            "top": 698
+          },
+          {
+            "transform": "none",
+            "top": 1462
+          }
+        ],
+        "stage": [],
+        "strip": []
+      },
+      "middle": {
+        "scrollY": 1717,
+        "rootClass": "",
+        "bodyClass": "",
+        "cards": [
+          {
+            "transform": "matrix(0.929722, -0.0227219, 0.0227219, 0.929722, 0, 0)",
+            "top": 92.91259765625
+          },
+          {
+            "transform": "matrix(0.949252, 0.0167565, -0.0167565, 0.949252, 0, 0)",
+            "top": 112.8736572265625
+          },
+          {
+            "transform": "none",
+            "top": 423
+          },
+          {
+            "transform": "none",
+            "top": 1187
+          }
+        ],
+        "stage": [],
+        "strip": []
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "stacking-cards",
+      "mode": "mobile-emulation-reduced",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0",
+        "scrollTrigger": "3.15.0"
+      },
+      "before": {
+        "scrollY": 1250,
+        "rootClass": "",
+        "bodyClass": "",
+        "cards": [
+          {
+            "transform": "none",
+            "top": 75.953125
+          },
+          {
+            "transform": "none",
+            "top": 85.953125
+          },
+          {
+            "transform": "none",
+            "top": 633.96875
+          },
+          {
+            "transform": "none",
+            "top": 1289
+          }
+        ],
+        "stage": [],
+        "strip": []
+      },
+      "middle": {
+        "scrollY": 1488,
+        "rootClass": "",
+        "bodyClass": "",
+        "cards": [
+          {
+            "transform": "none",
+            "top": 75.953125
+          },
+          {
+            "transform": "none",
+            "top": 85.953125
+          },
+          {
+            "transform": "none",
+            "top": 395.96875
+          },
+          {
+            "transform": "none",
+            "top": 1051
+          }
+        ],
+        "stage": [],
+        "strip": []
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "reportage-horizontal-gallery",
+      "mode": "desktop-normal",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0",
+        "scrollTrigger": "3.15.0"
+      },
+      "before": {
+        "scrollY": 2816,
+        "rootClass": "lenis lenis-scrolling",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "sticky",
+            "top": 0
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "visible",
+            "scrollWidth": 2814,
+            "clientWidth": 1440,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "middle": {
+        "scrollY": 2816,
+        "rootClass": "lenis",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "sticky",
+            "top": 0
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "visible",
+            "scrollWidth": 2763,
+            "clientWidth": 1440,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "slug": "reportage-horizontal-gallery",
+      "mode": "mobile-emulation-reduced",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0",
+        "scrollTrigger": "3.15.0"
+      },
+      "before": {
+        "scrollY": 1115,
+        "rootClass": "ridotto",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "relative",
+            "top": 26.5
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "auto",
+            "scrollWidth": 2648,
+            "clientWidth": 390,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "middle": {
+        "scrollY": 1115,
+        "rootClass": "ridotto",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "relative",
+            "top": 26.5
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "auto",
+            "scrollWidth": 2648,
+            "clientWidth": 390,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "afterNativeScroll": {
+        "scrollY": 1115,
+        "rootClass": "ridotto",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "relative",
+            "top": 26.5
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "auto",
+            "scrollWidth": 2648,
+            "clientWidth": 390,
+            "scrollLeft": 200
+          }
+        ]
+      },
+      "horizontalOverflow": false
+    }
+  ],
+  "followUpGalleryWheel": [
+    {
+      "slug": "reportage-horizontal-gallery",
+      "mode": "desktop-normal",
+      "errors": [],
+      "failures": [],
+      "status": 200,
+      "dependencies": {
+        "gsap": "3.15.0",
+        "scrollTrigger": "3.15.0"
+      },
+      "before": {
+        "scrollY": 2816,
+        "trackTransform": "matrix(1, 0, 0, 1, -1580.81, 0)",
+        "rootClass": "lenis",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "sticky",
+            "top": 0
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "visible",
+            "scrollWidth": 2763,
+            "clientWidth": 1440,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "middle": {
+        "scrollY": 3466,
+        "trackTransform": "matrix(1, 0, 0, 1, -2176.8, 0)",
+        "rootClass": "lenis",
+        "bodyClass": "",
+        "cards": [],
+        "stage": [
+          {
+            "position": "sticky",
+            "top": 0
+          }
+        ],
+        "strip": [
+          {
+            "overflowX": "visible",
+            "scrollWidth": 2167,
+            "clientWidth": 1440,
+            "scrollLeft": 0
+          }
+        ]
+      },
+      "horizontalOverflow": false
+    }
+  ]
+}
