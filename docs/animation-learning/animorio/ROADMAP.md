@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. **The exercises below are planned work**, not completed lessons or a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations and [first pointer/spring lesson](01-pointer-and-springs.md) now contain original, verified exercises. Phases 2–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -22,6 +22,8 @@ Exercises:
 
 **Priority:** high. **Prerequisite:** Phase 0.
 
+**Progress:** [Lesson 1](01-pointer-and-springs.md) documents stationary hit geometry, spring state, event policy and cleanup, with numeric and Chromium checks. Normal/reduced motion and desktop/touch emulation were tested independently. Real touch hardware, screen readers and a draggable SVG implementation remain unverified; the scalar SVG mapping is explained without claiming a complete component.
+
 Read [Magnetic button](https://animorio.com/en/animations/magnetic-button/) first, then [Projects with elastic lines](https://animorio.com/en/animations/projects-with-elastic-lines/). The first separates a stable hit region from a moving visual; the second adds stateful spring motion and SVG geometry.
 
 Exercises:
@@ -30,7 +32,7 @@ Exercises:
 2. Specify a scalar spring with position, velocity and target. Compare it with a damped follower: only the spring can overshoot naturally.
 3. Define pointer enter/leave, focus, touch, cancel and lost-capture transitions. Keep the primary link action available.
 
-**Deliverable:** `01-pointer-and-springs.md`, including original scalar examples and an event/state table. **Gate:** no hover-only information, no moving hit target, no blocked native vertical scrolling in a project list, and no leftover ticker after disposal. Test a coarse pointer separately from reduced motion.
+**Deliverable:** [01-pointer-and-springs.md](01-pointer-and-springs.md), including original scalar examples and an event/state table. **Gate:** no hover-only information, no moving hit target, no blocked native vertical scrolling in a project list, and no leftover ticker after disposal. Test a coarse pointer separately from reduced motion.
 
 ## Phase 2 — Sticky positioning and scroll progress
 
@@ -107,7 +109,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Start with **Phases 0 and 1**, producing the pointer/spring lesson and validating the math before advancing to scroll. The existing first ten reviews provide the reading material. Do not add another fifty candidates until one mechanism has been explained, independently exercised and checked.
+Continue with **Phase 2: sticky positioning and scroll progress**, starting with Stacking cards and then the Reportage horizontal gallery. Build on Lesson 1's separation between stationary measurement geometry and moving visuals. Document scroll anchors, usable travel, resize invalidation and native-scroll fallbacks before introducing smooth scrolling. The existing first ten reviews provide the reading material.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

@@ -154,4 +154,4 @@ This utility does not cancel arbitrary promises or restore changed styles. Guard
 
 The JavaScript blocks were extracted and executed with Node's built-in assertions during this study. Checks covered centered pointer coordinates; progress endpoints and invalid travel; chapter clamping; equal damping endpoints across 30/60/120 Hz; cover distance; positive/negative wrapping; event removal; idempotent disposal; reverse-order cleanup; and cleanup continuation after an error. This validates the teaching primitives, not a browser integration or an Animorio implementation.
 
-The next exercise should connect one primitive to a documented state diagram. Do not treat a passing numeric assertion as proof of accessible focus behavior or visual smoothness.
+Continue with [Lesson 1: pointer geometry and springs](01-pointer-and-springs.md), which connects scalar motion to a documented interaction model and browser-checked lifecycle. Do not treat a passing numeric assertion as proof of accessible focus behavior or visual smoothness.

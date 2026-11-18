@@ -1,0 +1,61 @@
+{
+  "recordedAt": "2026-11-18T11:00:44.975Z",
+  "browser": "156.0.8078.79",
+  "node": "v24.22.1",
+  "lessonSHA256": "3493bb8a173dea7a0529bbd920130b2cc8d55888332bc8b179b6feb75b514dec",
+  "scriptSHA256": "aeb25cdb9b62352ef740a7d765917c926ce385524a877d3be63bdfabb30581e2",
+  "scope": "Original documentation snippets in an in-memory fixture; no live Animorio verification or network resources.",
+  "numeric": "passed",
+  "scenarios": [
+    {
+      "touchEmulation": false,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "keyboardActivation": true,
+      "cleanup": true,
+      "touchScrollY": null
+    },
+    {
+      "touchEmulation": false,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "keyboardActivation": true,
+      "cleanup": true,
+      "touchScrollY": null
+    },
+    {
+      "touchEmulation": true,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "keyboardActivation": true,
+      "cleanup": true,
+      "touchScrollY": 174
+    },
+    {
+      "touchEmulation": true,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "keyboardActivation": true,
+      "cleanup": true,
+      "touchScrollY": 177
+    }
+  ],
+  "desktopNormalChecks": [
+    "bounded displacement",
+    "stationary hit bounds",
+    "settled RAF shutdown",
+    "spring return",
+    "runtime motion preference",
+    "scroll reset",
+    "pointer cancellation",
+    "lost capture",
+    "pointer down reset"
+  ],
+  "limitations": [
+    "Chromium only",
+    "Emulated touch, not physical hardware",
+    "No screen reader audit",
+    "No transformed-ancestor support",
+    "SVG scalar mapping explained, not browser-rendered"
+  ]
+}
