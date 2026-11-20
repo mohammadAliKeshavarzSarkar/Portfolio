@@ -1,0 +1,57 @@
+{
+  "recordedAt": "2026-11-20T08:53:02.080Z",
+  "browser": "156.0.8078.79",
+  "node": "v24.22.1",
+  "lessonSHA256": "d6255443c27588dd1174fef3de818581d8047990bd877fc6289872897cbaf393",
+  "numeric": "passed",
+  "scenarios": [
+    {
+      "mobileEmulation": false,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "nativeChapterLinks": true,
+      "preservedTextAndSelection": true,
+      "disposal": true
+    },
+    {
+      "mobileEmulation": false,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "nativeChapterLinks": true,
+      "preservedTextAndSelection": true,
+      "disposal": true
+    },
+    {
+      "mobileEmulation": true,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "nativeChapterLinks": true,
+      "preservedTextAndSelection": true,
+      "disposal": true
+    },
+    {
+      "mobileEmulation": true,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "nativeChapterLinks": true,
+      "preservedTextAndSelection": true,
+      "disposal": true
+    }
+  ],
+  "noJavaScript": "All transcript chapters available; native final-chapter link passed",
+  "normalMotionChecks": [
+    "same-index no restart",
+    "rapid threshold skips and reverse",
+    "completion without further scroll",
+    "final phrase emphasis",
+    "sticky readable phrases",
+    "runtime reduced-motion cancellation",
+    "short-viewport fallback"
+  ],
+  "limitations": [
+    "Chromium only; emulated mobile",
+    "No screen reader or Persian visual shaping audit",
+    "No variable-font or rendering-cost benchmark",
+    "Marquee math tested, not a full marquee component"
+  ]
+}

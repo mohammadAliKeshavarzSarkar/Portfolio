@@ -10,10 +10,12 @@ The full catalog has been inventoried. **Ten representative standalone scripts h
 2. Use [the ten implementation reviews](SOURCE-REVIEW.md) to understand mechanisms and integration risks.
 3. Work through [the original code notes](FOUNDATIONS.md): coordinate spaces, progress, damping, looping and cleanup.
 4. Continue with [Lesson 1: pointer geometry and springs](01-pointer-and-springs.md), including original code, interaction states and executable checks.
-5. Consult [browser observations](BROWSER-CHECKS.md) before treating a source-level finding as tested behavior.
-6. Search [catalog.csv](catalog.csv) for future candidates. [evidence.json](evidence.json) records URLs, source hashes and review scope.
+5. Read [Lesson 2: sticky positioning and scroll progress](02-sticky-and-scroll-progress.md) for card anchors, gallery endpoints, native overflow and resize handling.
+6. Work through [Lesson 3: text progress and chapter state](03-text-progress-and-state.md), including interruption, language-aware text handling and velocity mathematics.
+7. Consult [browser observations](BROWSER-CHECKS.md) before treating a source-level finding as tested behavior.
+8. Search [catalog.csv](catalog.csv) for future candidates. [evidence.json](evidence.json) records URLs, source hashes and review scope.
 
-The foundations and first pointer/spring exercise are documented and checked. [Lesson 1 results](pointer-lesson-validation.json) concern our original snippets in a local browser fixture; they do not extend the live Animorio browser-coverage count. The next lesson is sticky positioning and scroll progress. Real-device and assistive-technology checks remain open.
+The foundations and scoped pointer, scroll and text/chapter exercises are documented and checked. [Lesson 1 results](pointer-lesson-validation.json), [Lesson 2 results](scroll-lesson-validation.json) and [Lesson 3 results](text-lesson-validation.json) concern our original snippets in local browser fixtures; they do not extend the live Animorio browser-coverage count. The next lesson is navigation state and SVG reveals. Real-device and assistive-technology checks remain open.
 
 ## What the inventory contains
 
