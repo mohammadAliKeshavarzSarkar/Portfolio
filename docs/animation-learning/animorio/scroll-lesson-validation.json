@@ -1,0 +1,59 @@
+{
+  "recordedAt": "2026-11-20T08:44:21.786Z",
+  "browser": "156.0.8078.79",
+  "node": "v24.22.1",
+  "lessonSHA256": "2b2c6841d49e264beea39bfad823bbf6abb7930acde153fbf4cd1c925450b8e4",
+  "numeric": "passed",
+  "scenarios": [
+    {
+      "mobileEmulation": false,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "keyboardEndpoints": true,
+      "reverseNavigation": true,
+      "idleAndDisposal": true
+    },
+    {
+      "mobileEmulation": false,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "keyboardEndpoints": true,
+      "reverseNavigation": true,
+      "idleAndDisposal": true
+    },
+    {
+      "mobileEmulation": true,
+      "initialReducedMotion": false,
+      "status": "passed",
+      "keyboardEndpoints": true,
+      "reverseNavigation": true,
+      "idleAndDisposal": true
+    },
+    {
+      "mobileEmulation": true,
+      "initialReducedMotion": true,
+      "status": "passed",
+      "keyboardEndpoints": true,
+      "reverseNavigation": true,
+      "idleAndDisposal": true
+    }
+  ],
+  "noJavaScript": "Native keyboard horizontal scrolling passed",
+  "desktopNormalAdditionalChecks": [
+    "CSS card sticky and reverse release",
+    "gallery start/middle/end/reverse positions",
+    "final edge alignment",
+    "resize remeasurement",
+    "runtime reduced motion",
+    "hidden/revealed viewport",
+    "tall-content fallback",
+    "zero-travel fallback",
+    "upstream layout shift"
+  ],
+  "limitations": [
+    "Chromium only",
+    "Mobile emulation, no real touch hardware",
+    "No screen reader or performance audit",
+    "Card decoration helper tested numerically; no decorated card controller"
+  ]
+}

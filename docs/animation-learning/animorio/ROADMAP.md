@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations and [first pointer/spring lesson](01-pointer-and-springs.md) now contain original, verified exercises. Phases 2–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md) and [sticky/scroll lesson](02-sticky-and-scroll-progress.md) now contain original, verified exercises. Phases 3–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -38,6 +38,8 @@ Exercises:
 
 **Priority:** highest for portfolio sections. **Prerequisites:** Phase 0; Phase 1 is useful but not required.
 
+**Progress:** [Lesson 2](02-sticky-and-scroll-progress.md) verifies CSS sticky cards, pure decoration geometry and an original gallery controller. Chromium checks cover forward/reverse travel, endpoints, keyboard navigation, resize, runtime reduced motion, native overflow and no-JavaScript access. The card decoration controller itself, physical touch devices and screen-reader behavior remain outside this completed exercise's scope.
+
 Study [Stacking cards](https://animorio.com/en/animations/stacking-cards/) before [Reportage horizontal gallery](https://animorio.com/en/animations/reportage-horizontal-gallery/). Both use CSS sticky; their JavaScript has different jobs. Cards respond to neighboring anchors. The gallery derives a composition from one shared progress value.
 
 Exercises:
@@ -47,7 +49,7 @@ Exercises:
 3. Design the gallery's reduced-motion branch as a native horizontal scroller with discoverable controls, then test keyboard access.
 4. Specify font/image readiness and resize invalidation without reading layout on every frame.
 
-**Deliverable:** `02-sticky-and-scroll-progress.md`, with geometry formulas and a refresh sequence. **Gate:** content works with native scrolling, the final item is reachable, reverse scrolling is correct, and resized measurements match the current layout. Only then evaluate whether smooth scrolling adds value.
+**Deliverable:** [02-sticky-and-scroll-progress.md](02-sticky-and-scroll-progress.md), with geometry formulas and a refresh sequence. **Gate:** content works with native scrolling, the final item is reachable, reverse scrolling is correct, and resized measurements match the current layout. Only then evaluate whether smooth scrolling adds value.
 
 ## Phase 3 — Typography and scroll-driven state
 
@@ -109,7 +111,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Continue with **Phase 2: sticky positioning and scroll progress**, starting with Stacking cards and then the Reportage horizontal gallery. Build on Lesson 1's separation between stationary measurement geometry and moving visuals. Document scroll anchors, usable travel, resize invalidation and native-scroll fallbacks before introducing smooth scrolling. The existing first ten reviews provide the reading material.
+Continue with **Phase 3: typography and scroll-driven state**, starting with the Manifesto word-lighting example and then Chapters that swap askew. Compare continuous progress with discrete chapter selection and timed transitions; document interruption and reverse-scroll behavior before adding velocity-driven marquee motion. The existing first ten reviews provide the reading material.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 
