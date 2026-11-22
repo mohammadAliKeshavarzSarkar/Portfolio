@@ -140,4 +140,4 @@ Run `node docs/animation-learning/animorio/verify-navigation-lesson.cjs`. The te
 
 These are **geometry and asynchronous-state tests**, not browser tests of a complete menu. The DOM adapter above is a specification. Focus containment, Escape, real scroll locking, native-dialog behavior, resize coverage and SVG rendering still require a browser implementation and validation. The earlier live menu observations remain limited to their recorded scope in [BROWSER-CHECKS.md](BROWSER-CHECKS.md).
 
-The next session should complete that DOM adapter and its keyboard/reduced-motion/interruption matrix before treating Phase 4 as finished or advancing to WebGL. This lesson establishes the contracts and tested state machinery needed for that work.
+The follow-up [browser adapter](04-browser-adapter.md) now implements a native-dialog exercise with keyboard, reduced-motion, interruption, SVG stroke and cleanup checks. Those checks complete the scoped modal exercise; a full-screen scribble cover and cross-browser/physical-device validation remain separate work.

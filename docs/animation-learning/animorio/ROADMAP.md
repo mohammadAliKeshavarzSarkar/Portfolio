@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises; its DOM adapter and browser checks remain pending. Phases 5–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phases 5–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Continue **Phase 4** by implementing the DOM adapter specified in [Lesson 4](04-navigation-and-reveals.md) and checking keyboard focus, Escape, scroll-lock ownership and rendered SVG coverage in the browser. Reuse Lesson 3's cancellation and state-ownership principles, adding focus restoration, background interaction, scroll-lock ownership and content-visible failure paths. The existing first ten reviews provide the reading material.
+Continue with **Phase 5: rendering and fallbacks**, starting with the Ink reveal pass graph and resource ownership. The scoped Phase 4 dialog exercise is checked; a full-screen scribble implementation remains optional follow-up. Reuse Lesson 3's cancellation and state-ownership principles, adding focus restoration, background interaction, scroll-lock ownership and content-visible failure paths. The existing first ten reviews provide the reading material.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

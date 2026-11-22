@@ -55,6 +55,6 @@ Before directly incorporating an Animorio implementation into a future product, 
 
 The [portfolio case studies](../../portfolio-case-studies/README.md) explain composition and whole-site behavior. This track isolates reusable engineering concepts. A successful exercise explains why motion improves navigation or reading, how it behaves under interruption, and how content remains usable without that motion. Visual polish alone is not the completion criterion.
 
-## Navigation lesson in progress
+## Navigation lesson
 
-[Lesson 4: navigation state and SVG reveals](04-navigation-and-reveals.md) now includes tested geometry and asynchronous transition ownership. Its DOM adapter and browser validation remain pending; Phase 4 is not yet complete.
+[Lesson 4: navigation state and SVG reveals](04-navigation-and-reveals.md) now includes tested geometry and asynchronous transition ownership. The [native-dialog adapter](04-browser-adapter.md) adds verified keyboard, reduced-motion, interruption, SVG stroke and cleanup behavior. Full-screen cover geometry and real-device validation remain outside the completed modal exercise.
