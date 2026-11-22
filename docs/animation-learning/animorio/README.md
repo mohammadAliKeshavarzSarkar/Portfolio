@@ -54,3 +54,7 @@ Before directly incorporating an Animorio implementation into a future product, 
 ## How this supports the portfolio studies
 
 The [portfolio case studies](../../portfolio-case-studies/README.md) explain composition and whole-site behavior. This track isolates reusable engineering concepts. A successful exercise explains why motion improves navigation or reading, how it behaves under interruption, and how content remains usable without that motion. Visual polish alone is not the completion criterion.
+
+## Navigation lesson in progress
+
+[Lesson 4: navigation state and SVG reveals](04-navigation-and-reveals.md) now includes tested geometry and asynchronous transition ownership. Its DOM adapter and browser validation remain pending; Phase 4 is not yet complete.
