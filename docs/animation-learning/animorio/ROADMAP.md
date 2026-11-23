@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its [static renderer lifecycle](05-browser-renderer.md) is browser-checked, and its [animation scheduling exercise](05-animation-ownership.md) is checked separately; integrated moving-GPU lifecycle is now checked in software Chromium, while real-device gates remain pending. Phase 6 now has documented integration contracts; application-level validation remains pending. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its [static renderer lifecycle](05-browser-renderer.md) is browser-checked, and its [animation scheduling exercise](05-animation-ownership.md) is checked separately; integrated moving-GPU lifecycle is now checked in software Chromium, while real-device gates remain pending. Phase 6 now has documented integration contracts; a local History fixture is browser-checked, while application-level validation remains pending. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Continue from the [integration contracts](06-integration-contracts.md): validate composed ownership and route/history behavior in a focused learning fixture, then record hardware and cross-browser checks where available. The integrated GPU scheduling/restoration exercise passes in software Chromium; physical-device performance remains unmeasured.
+Continue by composing the independently checked controllers in a focused learning fixture and testing ownership boundaries. [History restoration](06-history-restoration.md) now has a passing Chromium exercise; reload/bfcache, real application routing, other engines and physical-device performance remain unverified.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

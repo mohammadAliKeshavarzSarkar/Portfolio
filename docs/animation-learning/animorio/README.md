@@ -66,3 +66,5 @@ The [portfolio case studies](../../portfolio-case-studies/README.md) explain com
 The [animation clock exercise](05-animation-ownership.md) now verifies one-loop ownership, offscreen pausing, reduced motion, readiness and disposal. The static GPU and moving-marker checks are separate exercises; an integrated moving GPU renderer and real-device measurements remain pending.
 
 The GPU exercise now supports an integrated moving mode with verified offscreen/reduced-motion pause, context restoration and disposal. [Integration contracts](06-integration-contracts.md) consolidate ownership and identify the remaining application, hardware and cross-browser checks.
+
+The [history restoration exercise](06-history-restoration.md) now checks per-entry scroll positions, actual back/forward navigation, delayed layout readiness and stale-navigation cancellation in Chromium. Application-specific routing and other browser engines remain unverified.

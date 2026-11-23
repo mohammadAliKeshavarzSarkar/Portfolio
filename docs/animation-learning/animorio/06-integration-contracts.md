@@ -1,6 +1,6 @@
 # Lesson 6 — Integration contracts
 
-**23 November 2026 · Asia/Tehran.** This document gathers the ownership rules demonstrated by the original exercises. It is a review specification for a future portfolio integration. It does not claim an integrated application, route/history testing, framework-adapter review or real-device performance results.
+**23 November 2026 · Asia/Tehran.** This document gathers the ownership rules demonstrated by the original exercises. It is a review specification for a future portfolio integration. The follow-up [history restoration exercise](06-history-restoration.md) verifies a local Chromium routing fixture. A full application, framework-adapter review and real-device performance results remain outside this document.
 
 ## Assign one owner to each resource
 
