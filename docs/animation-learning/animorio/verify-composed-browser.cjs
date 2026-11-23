@@ -45,6 +45,10 @@ const extract = (s, l) =>
       window.routes = mountHistoryStudy({
         onError: (e) => failures.push(String(e)),
         prepare: async (url) => {
+          renderer.setPaused(true);
+          await menu.request(false);
+          if (new URL(url).pathname === "/slow")
+            await new Promise((resolve) => setTimeout(resolve, 180));
           const main = document.createElement("main");
           const h = document.createElement("h1");
           h.tabIndex = -1;
@@ -113,6 +117,42 @@ const extract = (s, l) =>
       () => document.querySelector("main h1").textContent === "/a",
     );
     await page.waitForFunction(() => renderer.counts.draws > 3);
+    // Route generation is acquired before preparation closes the modal.
+    await page.evaluate(async () => {
+      renderer.setPaused(true);
+      await menu.request(true);
+    });
+    await page.evaluate(async () => {
+      const slow = routes.navigate("/slow");
+      const latest = routes.navigate("/latest");
+      await Promise.all([slow, latest]);
+    });
+    assert.equal(await page.locator("main h1").textContent(), "/latest");
+    assert.equal(await page.locator("#menu").evaluate((el) => el.open), false);
+    assert.equal(
+      await page.evaluate(() => document.documentElement.style.overflow),
+      "",
+    );
+    assert.equal(
+      await page
+        .locator("main h1")
+        .evaluate((el) => el === document.activeElement),
+      true,
+    );
+    // Back while modal is open uses the same preparation barrier.
+    await page.evaluate(async () => {
+      renderer.setPaused(true);
+      await menu.request(true);
+    });
+    await page.goBack();
+    await page.waitForFunction(
+      () => document.querySelector("main h1").textContent === "/slow",
+    );
+    assert.equal(await page.locator("#menu").evaluate((el) => el.open), false);
+    assert.equal(
+      await page.evaluate(() => document.documentElement.style.overflow),
+      "",
+    );
     await page.evaluate(() => {
       renderer.setPaused(true);
       menu.request(true);

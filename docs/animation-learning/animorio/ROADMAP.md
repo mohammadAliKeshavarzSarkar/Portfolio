@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Continue by consolidating the coverage matrix and prioritizing the unverified boundaries listed in [composed controllers](06-composed-controllers.md). The focused shell/modal/GPU/history fixture passes in software Chromium; concurrent shell requests, reload/bfcache and real-device/other-engine checks remain open.
+Use the [coverage matrix](COVERAGE.md) to select the next boundary: failed route preparation and reopening navigation during route loading. Concurrent route requests and open-modal Back now pass the focused Chromium fixture; other-engine, reload/bfcache and physical-device checks remain pending.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

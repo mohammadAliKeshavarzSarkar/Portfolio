@@ -70,3 +70,5 @@ The GPU exercise now supports an integrated moving mode with verified offscreen/
 The [history restoration exercise](06-history-restoration.md) now checks per-entry scroll positions, actual back/forward navigation, delayed layout readiness and stale-navigation cancellation in Chromium. Application-specific routing and other browser engines remain unverified.
 
 The [composed-controller exercise](06-composed-controllers.md) now verifies shell-owned modal pausing, preference changes, route GPU replacement, back navigation and final cleanup. It records the remaining concurrent-navigation and device/engine boundaries explicitly.
+
+Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish live-reference research from original examples, and choose the next unresolved boundary. Concurrent route requests and Back with an open modal now have focused Chromium checks.
