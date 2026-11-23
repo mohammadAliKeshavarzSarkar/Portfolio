@@ -59,6 +59,6 @@ It extracts the scheduler and lifecycle code directly from Markdown. Run `node d
 
 ## What this establishes
 
-The fixture observed real persisted restoration in Chromium under the recorded launch configuration. It proves this small scheduling/lifecycle contract, not that the GPU, modal and full History shell are all bfcache-eligible together. GPU context loss on restore, browser memory pressure, external origins, other engines and physical devices remain separate checks. Eligibility is not guaranteed on every traversal; the baseline/reload path must continue to work if the browser evicts a page.
+The fixture observed real persisted restoration in Chromium under the recorded launch configuration. It proves this small scheduling/lifecycle contract. The follow-up [composed fixture](06-composed-bfcache.md) covers the moving software-WebGL renderer, native dialog and independent modal/page pause handles. Browser memory pressure, external origins, other engines and physical devices remain separate checks. Eligibility is not guaranteed on every traversal; the baseline/reload path must continue to work if the browser evicts a page.
 
-The next useful integration test combines the cached-document lifecycle with the composed modal/GPU fixture. Keep page lifecycle, modal pause and reduced-motion flags independent so returning from cache cannot override another active reason to pause.
+The composed test confirms the ownership rule introduced here: page lifecycle, modal pause and reduced-motion eligibility stay independent, so returning from cache cannot override another active reason to pause.

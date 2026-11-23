@@ -15,7 +15,7 @@ The full catalog has been inventoried. **Ten representative standalone scripts h
 7. Consult [browser observations](BROWSER-CHECKS.md) before treating a source-level finding as tested behavior.
 8. Search [catalog.csv](catalog.csv) for future candidates. [evidence.json](evidence.json) records URLs, source hashes and review scope.
 
-The foundations and scoped pointer, scroll and text/chapter exercises are documented and checked. [Lesson 1 results](pointer-lesson-validation.json), [Lesson 2 results](scroll-lesson-validation.json) and [Lesson 3 results](text-lesson-validation.json) concern our original snippets in local browser fixtures; they do not extend the live Animorio browser-coverage count. The next lesson is navigation state and SVG reveals. Real-device and assistive-technology checks remain open.
+The foundations and scoped pointer, scroll, text/chapter, navigation, rendering and integration exercises are documented and checked to the limits in [the coverage matrix](COVERAGE.md). Their original browser fixtures do not extend the number of live Animorio references reviewed. Real-device, assistive-technology and other-engine checks remain open.
 
 ## What the inventory contains
 
@@ -73,8 +73,8 @@ The [composed-controller exercise](06-composed-controllers.md) now verifies shel
 
 Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish live-reference research from original examples, and choose the next unresolved boundary. Concurrent route requests and Back with an open modal now have focused Chromium checks.
 
-The [navigation-failure lesson](06-navigation-failures.md) now documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure and reload/bfcache remain open boundaries.
+The [navigation-failure lesson](06-navigation-failures.md) documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure remains an open boundary.
 
-[Reload and final recovery](06-reload-and-recovery.md) now adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail. Actual persisted bfcache restoration remains unverified.
+[Reload and final recovery](06-reload-and-recovery.md) adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail.
 
-[Actual bfcache lifecycle](06-bfcache-lifecycle.md) now records persisted Chromium returns for the standalone frame owner, including identity preservation, zero-delta resume and disposal. Combined GPU/modal cache eligibility remains unverified.
+[Actual bfcache lifecycle](06-bfcache-lifecycle.md) records persisted Chromium returns for the standalone frame owner. The [composed bfcache fixture](06-composed-bfcache.md) extends that evidence to native dialog, scroll lock, moving software WebGL and independent modal/page pause handles.

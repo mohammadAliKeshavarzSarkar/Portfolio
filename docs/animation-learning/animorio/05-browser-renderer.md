@@ -34,8 +34,9 @@ function mountGpuStudy(root, options = {}) {
     buffer = null;
   let shaders = [],
     disposed = false,
-    lost = false,
-    paused = false;
+    lost = false;
+  const pauseReasons = new Set();
+  const legacyPause = Symbol("setPaused");
   const counts = { draws: 0, builds: 0, releases: 0 };
   let clock = null,
     phase = 0,
@@ -45,13 +46,24 @@ function mountGpuStudy(root, options = {}) {
       root,
       (dt) => {
         if (!program || lost || disposed) return;
+        // Context loss can become observable before webglcontextlost dispatches.
+        if (gl.isContextLost()) {
+          release();
+          return;
+        }
         phase += dt;
         gl.useProgram(program);
         gl.uniform1f(shade, 0.5 + 0.4 * Math.sin(phase * 2));
         gl.clear(gl.COLOR_BUFFER_BIT);
         gl.drawArrays(gl.TRIANGLES, 0, 3);
-        if (gl.getError() !== gl.NO_ERROR)
+        const error = gl.getError();
+        if (error !== gl.NO_ERROR) {
+          if (gl.isContextLost()) {
+            release();
+            return;
+          }
           throw new Error("Frame drawing failed");
+        }
         counts.draws++;
       },
       () => release(),
@@ -71,6 +83,12 @@ function mountGpuStudy(root, options = {}) {
     shaders = [];
     counts.releases++;
     canvas.hidden = true;
+  }
+  function syncClock() {
+    if (clock)
+      clock.setContextReady(
+        pauseReasons.size === 0 && Boolean(program) && !lost,
+      );
   }
   function compile(type, source) {
     const shader = gl.createShader(type);
@@ -131,7 +149,7 @@ function mountGpuStudy(root, options = {}) {
       counts.draws++;
       counts.builds++;
       canvas.hidden = false;
-      if (clock) clock.setContextReady(!paused);
+      syncClock();
     } catch (error) {
       release();
     }
@@ -148,7 +166,7 @@ function mountGpuStudy(root, options = {}) {
   canvas.addEventListener(
     "webglcontextrestored",
     () => {
-      ((lost = false), (paused = false));
+      lost = false;
       build();
     },
     { signal: events.signal },
@@ -164,8 +182,21 @@ function mountGpuStudy(root, options = {}) {
   build();
   return {
     setPaused(value) {
-      paused = Boolean(value);
-      if (clock) clock.setContextReady(!paused && Boolean(program) && !lost);
+      if (value) pauseReasons.add(legacyPause);
+      else pauseReasons.delete(legacyPause);
+      syncClock();
+    },
+    acquirePause() {
+      const reason = Symbol("pause");
+      pauseReasons.add(reason);
+      syncClock();
+      let released = false;
+      return () => {
+        if (released) return;
+        released = true;
+        pauseReasons.delete(reason);
+        syncClock();
+      };
     },
     get counts() {
       return { ...counts };
@@ -202,6 +233,8 @@ Load the JavaScript from [animation ownership](05-animation-ownership.md) before
 
 Resource release first marks the clock unready. Successful rebuilding marks it ready again; unmount destroys the clock before deleting GPU objects. The clock retains active elapsed phase across restoration while its resumed delta starts at zero. A frame failure latches the binding stopped and exposes the fallback; remount for explicit recovery. Normal reduced-motion changes release resources and rebuild on return.
 
+Context loss can become visible through `gl.isContextLost()` before the browser dispatches `webglcontextlost`. The frame callback treats that state as a recoverable pause and releases current handles without throwing into the frame owner's fatal-error path. Other GL errors still stop the binding. The context-restored handler rebuilds resources and the retained pause-reason set decides whether drawing may resume.
+
 The integrated test runs `node docs/animation-learning/animorio/verify-gpu-motion.cjs`. It checks changing shader output, stable counters while offscreen or reduced-motion, resumption after context restoration, and no draws after destruction. Software Chromium verifies behavior only. Physical hidden-tab transitions and hardware/mobile performance remain unverified. Continuous visual effects need a suitable user pause control in any real interface; this short automated learning fixture does not define a production interaction.
 
-The application shell can call `setPaused(true)` while a modal is open and release that pause after closing. This flag survives resource rebuilding, so toggling reduced motion cannot resume background GPU work behind the modal. Each instance has one external-pause owner in this exercise; overlapping external owners would need pause tokens rather than a shared boolean.
+The application shell can call `setPaused(true)` when it has one external pause owner. For overlapping reasons, `acquirePause()` returns an idempotent release handle. Context restoration and reduced-motion resource rebuilding retain the set of pause reasons, so either event cannot resume work behind an open modal or while the page is suspended. Destroying the renderer makes later release handles harmless because the clock is already disposed.

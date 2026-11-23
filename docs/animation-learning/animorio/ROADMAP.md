@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) for remaining validation. The [bfcache exercise](06-bfcache-lifecycle.md) now observes persisted Chromium restores for a standalone frame owner. Next, test cache eligibility and independent pause reasons in the combined GPU/modal shell; other-engine, assistive-technology and hardware checks remain open.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. The standalone and [composed bfcache exercise](06-composed-bfcache.md) now observe persisted Chromium restores with independent page/modal pause ownership. Next, prioritize another browser engine or a real-device accessibility/performance session; those checks require environments not represented by the current Chromium software-renderer fixture.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 
