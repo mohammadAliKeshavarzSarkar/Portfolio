@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phases 5–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its renderer and device gates remain pending. Phase 6 remains planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -97,7 +97,7 @@ Exercises:
 3. Estimate memory and draw-pass budgets at two resolutions. Account for aspect ratio, target count, format and pressure iterations.
 4. Specify hidden-tab/offscreen pausing, context loss/restoration and disposal of programs, buffers, textures and observers.
 
-**Deliverable:** `05-rendering-and-fallbacks.md`, including pass graph and measured quality tradeoffs. **Gate:** a usable fallback works with WebGL unavailable, reduced motion stops ongoing fluid motion, and a real mobile device is tested before any performance claim.
+**Deliverable:** [05-rendering-and-fallbacks.md](05-rendering-and-fallbacks.md), including pass graph and measured quality tradeoffs. **Gate:** a usable fallback works with WebGL unavailable, reduced motion stops ongoing fluid motion, and a real mobile device is tested before any performance claim.
 
 [Melting sheet](https://animorio.com/en/animations/melting-sheet/) and [The glass word](https://animorio.com/en/animations/glass-word/) are **pending source access**, not reviewed examples of any specific technique. Revisit once accessible; then decide whether they add a new concept or duplicate this phase.
 

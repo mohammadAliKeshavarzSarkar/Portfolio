@@ -58,3 +58,7 @@ The [portfolio case studies](../../portfolio-case-studies/README.md) explain com
 ## Navigation lesson
 
 [Lesson 4: navigation state and SVG reveals](04-navigation-and-reveals.md) now includes tested geometry and asynchronous transition ownership. The [native-dialog adapter](04-browser-adapter.md) adds verified keyboard, reduced-motion, interruption, SVG stroke and cleanup behavior. Full-screen cover geometry and real-device validation remain outside the completed modal exercise.
+
+## Rendering lesson in progress
+
+[Lesson 5: rendering passes and fallbacks](05-rendering-and-fallbacks.md) adds a render graph, original transport exercise, verified texture-memory/draw budgets and lifecycle contracts. A renderer, GPU failure tests and real-device benchmarks remain pending.
