@@ -61,4 +61,4 @@ The [portfolio case studies](../../portfolio-case-studies/README.md) explain com
 
 ## Rendering lesson in progress
 
-[Lesson 5: rendering passes and fallbacks](05-rendering-and-fallbacks.md) adds a render graph, original transport exercise, verified texture-memory/draw budgets and lifecycle contracts. A renderer, GPU failure tests and real-device benchmarks remain pending.
+[Lesson 5: rendering passes and fallbacks](05-rendering-and-fallbacks.md) adds a render graph, original transport exercise, verified texture-memory/draw budgets and lifecycle contracts. The [small browser renderer](05-browser-renderer.md) now exercises optional GPU decoration, failure fallback, context restoration and reduced motion. Real-device benchmarks and a moving fluid renderer remain pending.
