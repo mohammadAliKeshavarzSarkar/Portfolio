@@ -24,4 +24,4 @@ The full no-JavaScript text baseline also passed in both engines: all transcript
 
 The matrix does not pass `--record` to its children, so it preserves the earlier lesson result files. If recording the text verifier directly, non-Chromium runs use an engine-specific filename, such as `text-lesson-firefox-validation.json`, to avoid replacing Chromium evidence with a smaller coverage set. The matrix result records what ran during this update; it does not update every historical lesson hash.
 
-Next, prioritize GPU capability and fallback behavior per engine, and complete WebKit's managed host setup before attempting that engine. Real devices, assistive technology, performance and cross-engine bfcache remain separate work. Passing desktop text/history behavior is not evidence for those untested systems.
+The follow-up [GPU capability report](CROSS-BROWSER-GPU.md) now checks readable fallback behavior separately from rendering availability. WebKit still needs managed host setup. Real devices, assistive technology, performance and cross-engine bfcache remain separate work. Passing desktop text/history behavior is not evidence for those untested systems.

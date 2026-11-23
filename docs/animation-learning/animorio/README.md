@@ -82,3 +82,5 @@ The [navigation-failure lesson](06-navigation-failures.md) documents a tested lo
 [Cross-browser checks](CROSS-BROWSER.md) now record passing desktop modal/gallery exercises in Chromium and Firefox, under normal and reduced motion. WebKit is unavailable due to missing host libraries; GPU, bfcache and other lessons retain their narrower Chromium-only scope.
 
 The [text/history extension](CROSS-BROWSER-TEXT-HISTORY.md) now also passes in Firefox and Chromium, including chapter interruptions, readable text, delayed layout and actual back/forward restoration. Firefox text coverage is desktop only; GPU and bfcache remain Chromium-only.
+
+[GPU capability checks](CROSS-BROWSER-GPU.md) now record passing readable fallbacks in both engines. Chromium also renders and restores its software-WebGL context. Firefox returns no actual context in this headless environment, so its GPU rendering/restoration paths remain untested; no hardware performance claim is made.
