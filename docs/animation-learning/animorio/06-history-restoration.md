@@ -9,15 +9,16 @@ Two visits to the same route can have different scroll positions. Give each Hist
 Restoration must wait until the new content has sufficient height. Applying a saved position to a short loading placeholder causes browser clamping. The example prepares detached content first, guards its generation, commits it, then waits for its finite layout-readiness promise. Every asynchronous boundary checks the generation again. Slow preparation for a superseded entry cannot replace the latest page.
 
 ```js
-function mountHistoryStudy({ prepare, onError }) {
+function mountHistoryStudy({ prepare, onError, positionStore = new Map() }) {
   const namespace = "animationStudyEntry";
   const previousRestoration = history.scrollRestoration;
-  const positions = new Map();
+  const positions = positionStore;
   const events = new AbortController();
   let sequence = 0,
     generation = 0,
     disposed = false,
-    restoring = false;
+    restoring = false,
+    hasDisplayed = false;
   const key = () => `${Date.now()}-${++sequence}`;
   let active = history.state?.[namespace] || key();
   history.replaceState({ ...history.state, [namespace]: active }, "");
@@ -43,6 +44,7 @@ function mountHistoryStudy({ prepare, onError }) {
       if (!restore) page.focus();
       // Record the actual clamped position if content became shorter.
       positions.set(entry, scrollY);
+      hasDisplayed = true;
     } catch (error) {
       if (!disposed && token === generation) onError(error, url);
     } finally {
@@ -74,7 +76,7 @@ function mountHistoryStudy({ prepare, onError }) {
     },
     refresh() {
       if (!disposed) {
-        save();
+        if (hasDisplayed) save();
         return display(active, location.href, true);
       }
     },
@@ -103,3 +105,5 @@ The fixture renders the initial route before mounting and calls `refresh()` to e
 Run `node docs/animation-learning/animorio/verify-history-browser.cjs`. It uses Playwright request fulfillment on a reserved `.test` origin, without a server or external network. It extracts the code above into a temporary Chromium document and tests actual browser back/forward navigation, distinct scroll positions for repeated paths, detached preparation races, readiness delays and disposal during preparation.
 
 This proves the fixture's route/scroll behavior in Chromium. It does not certify browser restart persistence, Firefox/WebKit, real application content or screen-reader focus behavior. A future integration must validate its own router and layout-readiness contract rather than treating the helper as a drop-in router.
+
+For reload persistence, the optional `positionStore` accepts the `get`/`set` interface demonstrated in [reload and recovery](06-reload-and-recovery.md). Its default remains an in-memory Map.

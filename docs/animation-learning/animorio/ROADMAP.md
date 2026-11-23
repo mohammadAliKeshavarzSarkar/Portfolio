@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) to select the next boundary: reload/bfcache and final recovery when error-page rendering fails. The [loading gate](06-navigation-failures.md) now checks failed loaders, menu reopening during preparation and stale loading-state ownership in Chromium. Other engines and physical-device validation remain pending.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. [Reload and final recovery](06-reload-and-recovery.md) now have focused Chromium checks. Actual persisted bfcache restoration, other-engine behavior, assistive technology and physical-device measurements remain unverified. Before selecting further catalog examples, use those boundaries to assess the reuse readiness of the mechanisms already documented.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

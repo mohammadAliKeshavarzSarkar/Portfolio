@@ -74,3 +74,5 @@ The [composed-controller exercise](06-composed-controllers.md) now verifies shel
 Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish live-reference research from original examples, and choose the next unresolved boundary. Concurrent route requests and Back with an open modal now have focused Chromium checks.
 
 The [navigation-failure lesson](06-navigation-failures.md) now documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure and reload/bfcache remain open boundaries.
+
+[Reload and final recovery](06-reload-and-recovery.md) now adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail. Actual persisted bfcache restoration remains unverified.
