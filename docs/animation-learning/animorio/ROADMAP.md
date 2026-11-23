@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) for remaining validation. The standalone and [composed bfcache exercise](06-composed-bfcache.md) now observe persisted Chromium restores with independent page/modal pause ownership. Next, prioritize another browser engine or a real-device accessibility/performance session; those checks require environments not represented by the current Chromium software-renderer fixture.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. The [cross-browser modal/gallery checks](CROSS-BROWSER.md) pass in Chromium and Firefox. Next, extend Firefox coverage to text/chapter and route/history behavior. WebKit needs host-library setup; real-device and assistive-technology checks remain open. The composed bfcache/GPU results retain their Chromium software-renderer scope.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

@@ -1,0 +1,61 @@
+{
+  "recordedAt": "2026-11-23T08:54:52.535Z",
+  "scope": "Desktop 1280x900 original modal and gallery fixtures; no GPU, bfcache, screen-reader or real-device validation",
+  "sources": [
+    {
+      "file": "04-navigation-and-reveals.md",
+      "sha256": "c9b9e8329b6bae200533111e044a0118cc93a22f90a6e363956a0393473e3631"
+    },
+    {
+      "file": "04-browser-adapter.md",
+      "sha256": "f0c956b02d570589e1b8e4b5e50a455644b515f27ef936fe7dfa5603030d484e"
+    },
+    {
+      "file": "02-sticky-and-scroll-progress.md",
+      "sha256": "2b2c6841d49e264beea39bfad823bbf6abb7930acde153fbf4cd1c925450b8e4"
+    }
+  ],
+  "results": [
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.79",
+      "reducedMotion": false,
+      "status": "passed",
+      "errors": [],
+      "modal": "keyboard, focus, Escape, interruption and disposal passed",
+      "gallery": "endpoint, reverse, native overflow, preference and disposal passed"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.79",
+      "reducedMotion": true,
+      "status": "passed",
+      "errors": [],
+      "modal": "keyboard, focus, Escape, interruption and disposal passed",
+      "gallery": "endpoint, reverse, native overflow, preference and disposal passed"
+    },
+    {
+      "engine": "firefox",
+      "version": "153.0",
+      "reducedMotion": false,
+      "status": "passed",
+      "errors": [],
+      "modal": "keyboard, focus, Escape, interruption and disposal passed",
+      "gallery": "endpoint, reverse, native overflow, preference and disposal passed"
+    },
+    {
+      "engine": "firefox",
+      "version": "153.0",
+      "reducedMotion": true,
+      "status": "passed",
+      "errors": [],
+      "modal": "keyboard, focus, Escape, interruption and disposal passed",
+      "gallery": "endpoint, reverse, native overflow, preference and disposal passed"
+    },
+    {
+      "engine": "webkit",
+      "status": "unavailable",
+      "reason": "Error: browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libgraphene-1.0.so.0                             ║\n║     libharfbuzz-icu.so.0                             ║\n║     libmanette-0.2.so.0                              ║\n║     libhyphen.so.0                                   ║\n║     libGLESv2.so.2                                   ║\n╚══════════════════════════════════════════════════════╝"
+    }
+  ]
+}

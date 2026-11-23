@@ -78,3 +78,5 @@ The [navigation-failure lesson](06-navigation-failures.md) documents a tested lo
 [Reload and final recovery](06-reload-and-recovery.md) adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail.
 
 [Actual bfcache lifecycle](06-bfcache-lifecycle.md) records persisted Chromium returns for the standalone frame owner. The [composed bfcache fixture](06-composed-bfcache.md) extends that evidence to native dialog, scroll lock, moving software WebGL and independent modal/page pause handles.
+
+[Cross-browser checks](CROSS-BROWSER.md) now record passing desktop modal/gallery exercises in Chromium and Firefox, under normal and reduced motion. WebKit is unavailable due to missing host libraries; GPU, bfcache and other lessons retain their narrower Chromium-only scope.
