@@ -62,3 +62,5 @@ The [portfolio case studies](../../portfolio-case-studies/README.md) explain com
 ## Rendering lesson in progress
 
 [Lesson 5: rendering passes and fallbacks](05-rendering-and-fallbacks.md) adds a render graph, original transport exercise, verified texture-memory/draw budgets and lifecycle contracts. The [small browser renderer](05-browser-renderer.md) now exercises optional GPU decoration, failure fallback, context restoration and reduced motion. Real-device benchmarks and a moving fluid renderer remain pending.
+
+The [animation clock exercise](05-animation-ownership.md) now verifies one-loop ownership, offscreen pausing, reduced motion, readiness and disposal. The static GPU and moving-marker checks are separate exercises; an integrated moving GPU renderer and real-device measurements remain pending.
