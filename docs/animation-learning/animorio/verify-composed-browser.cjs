@@ -30,6 +30,7 @@ const extract = (s, l) =>
       "05-animation-ownership.md",
       "05-browser-renderer.md",
       "06-history-restoration.md",
+      "06-navigation-failures.md",
     ];
     await page.addScriptTag({
       content: files.map((n) => extract(read(n), "js")).join("\n"),
@@ -42,35 +43,56 @@ const extract = (s, l) =>
       });
       window.oldRenderers = [];
       window.failures = [];
+      const makePage = async (url, failed = false) => {
+        if (["/slow", "/slower"].includes(new URL(url).pathname))
+          await new Promise((resolve) =>
+            setTimeout(
+              resolve,
+              new URL(url).pathname === "/slower" ? 500 : 180,
+            ),
+          );
+        const main = document.createElement("main");
+        const h = document.createElement("h1");
+        h.tabIndex = -1;
+        h.textContent = new URL(url).pathname + (failed ? ": unavailable" : "");
+        const stage = document.querySelector(".gpu-study").cloneNode(true);
+        stage.querySelector("canvas").hidden = true;
+        main.append(h, stage);
+        if (failed) {
+          const recovery = document.createElement("a");
+          recovery.href = "/a";
+          recovery.textContent = "Return to a working route";
+          main.append(recovery);
+        }
+        return {
+          commit() {
+            renderer.destroy();
+            oldRenderers.push(renderer);
+            document.querySelector("main").replaceWith(main);
+            renderer = mountGpuStudy(main.querySelector(".gpu-study"), {
+              animate: true,
+            });
+          },
+          ready: Promise.resolve(),
+          focus() {
+            h.focus({ preventScroll: true });
+          },
+        };
+      };
+      window.gate = createLoadingGate({
+        menu,
+        opener: document.querySelector("#open-menu"),
+        getRenderer: () => renderer,
+        load: async (url) => {
+          if (new URL(url).pathname === "/failed")
+            throw new Error("Simulated route failure");
+          return makePage(url);
+        },
+        errorPage: (error, url) => makePage(url, true),
+      });
       window.routes = mountHistoryStudy({
         onError: (e) => failures.push(String(e)),
-        prepare: async (url) => {
-          renderer.setPaused(true);
-          await menu.request(false);
-          if (new URL(url).pathname === "/slow")
-            await new Promise((resolve) => setTimeout(resolve, 180));
-          const main = document.createElement("main");
-          const h = document.createElement("h1");
-          h.tabIndex = -1;
-          h.textContent = new URL(url).pathname;
-          const stage = document.querySelector(".gpu-study").cloneNode(true);
-          stage.querySelector("canvas").hidden = true;
-          main.append(h, stage);
-          return {
-            commit() {
-              renderer.destroy();
-              oldRenderers.push(renderer);
-              document.querySelector("main").replaceWith(main);
-              renderer = mountGpuStudy(main.querySelector(".gpu-study"), {
-                animate: true,
-              });
-            },
-            ready: Promise.resolve(),
-            focus() {
-              h.focus({ preventScroll: true });
-            },
-          };
-        },
+        prepare: gate.prepare,
       });
     });
     await page.waitForFunction(() => renderer.counts.draws > 4);
@@ -153,9 +175,53 @@ const extract = (s, l) =>
       await page.evaluate(() => document.documentElement.style.overflow),
       "",
     );
+    // Loading gate rejects a menu reopen while preparation is pending.
+    await page.evaluate(() => {
+      window.pendingLoad = routes.navigate("/slow");
+    });
+    assert.equal(await page.locator("#open-menu").isDisabled(), true);
+    const openerBox = await page.locator("#open-menu").boundingBox();
+    await page.mouse.click(
+      openerBox.x + openerBox.width / 2,
+      openerBox.y + openerBox.height / 2,
+    );
+    await page.evaluate(() => gate.openMenu());
+    assert.equal(await page.locator("#menu").evaluate((el) => el.open), false);
+    await page.evaluate(() => pendingLoad);
+    assert.equal(await page.locator("#open-menu").isDisabled(), false);
+    await page.evaluate(() => {
+      window.firstLoad = routes.navigate("/slow");
+      window.lastLoad = routes.navigate("/slower");
+    });
+    await page.waitForTimeout(300);
+    assert.equal(await page.locator("#open-menu").isDisabled(), true);
+    await page.evaluate(() => Promise.all([firstLoad, lastLoad]));
+    assert.equal(await page.locator("main h1").textContent(), "/slower");
+    await page.evaluate(() => routes.navigate("/failed"));
+    assert.equal(
+      await page.locator("main h1").textContent(),
+      "/failed: unavailable",
+    );
+    assert.equal(new URL(page.url()).pathname, "/failed");
+    assert.equal(
+      await page
+        .locator("main h1")
+        .evaluate((el) => el === document.activeElement),
+      true,
+    );
+    assert.equal(
+      await page.locator("main a[href='/a']").getAttribute("href"),
+      "/a",
+    );
+    assert.equal(await page.locator("#open-menu").isDisabled(), false);
+    assert.equal(
+      await page.evaluate(() => document.documentElement.style.overflow),
+      "",
+    );
     await page.evaluate(() => {
       renderer.setPaused(true);
       menu.request(true);
+      gate.destroy();
       menu.destroy();
       routes.destroy();
       renderer.destroy();
@@ -172,6 +238,8 @@ const extract = (s, l) =>
     assert.equal(await page.locator("#menu").evaluate((el) => el.open), false);
     assert.equal(await page.evaluate(() => history.scrollRestoration), "auto");
     assert.deepEqual(await page.evaluate(() => failures), []);
+    await page.locator("main a[href='/a']").click();
+    await page.waitForURL("**/a");
     assert.deepEqual(errors, []);
     console.log(
       "Composed fixture passed: modal pause, preference rebuild, route GPU teardown, history and final cleanup.",

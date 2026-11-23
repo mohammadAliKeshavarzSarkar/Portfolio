@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) to select the next boundary: failed route preparation and reopening navigation during route loading. Concurrent route requests and open-modal Back now pass the focused Chromium fixture; other-engine, reload/bfcache and physical-device checks remain pending.
+Use the [coverage matrix](COVERAGE.md) to select the next boundary: reload/bfcache and final recovery when error-page rendering fails. The [loading gate](06-navigation-failures.md) now checks failed loaders, menu reopening during preparation and stale loading-state ownership in Chromium. Other engines and physical-device validation remain pending.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

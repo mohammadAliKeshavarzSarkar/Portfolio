@@ -53,3 +53,5 @@ The new checks start two route requests while the menu is open, deliberately del
 A superseded request still creates a History entry in this teaching router. Therefore Back can visit `/slow` even though its first preparation never committed. That is an explicit behavior of push-before-prepare navigation, not a guarantee required of every router. A production router may instead commit its URL after loading, with its own error and cancellation policy.
 
 These checks close the specific concurrent-route and open-modal history gaps above. They do not arbitrate a new menu-open request arriving during route loading, preparation failure, external navigation or nested modals. Keep those cases in the coverage matrix.
+
+The follow-up [loading-gate exercise](06-navigation-failures.md) now implements the failed-loader and menu-reopening policy mentioned above and extends this same browser fixture. Error-renderer failure and direct bypass of shell APIs remain outside the checked contract.

@@ -48,4 +48,4 @@ The new composed cases and moving-GPU regression were run for this update. This 
 | 3        | Complete marquee and decorated-card components                      | Their mathematical helpers are more extensively checked than full behavior      | Original component implementation and lifecycle/resize checks  |
 | 3        | Fluid solver and quality experiments                                | Triangle rendering does not establish floating-target or simulation performance | Capability tests, resource checks and hardware measurements    |
 
-The practical next study is the first row: define a route-failure/reopen policy and test it. These priorities should guide new exercises before adding visual variants. None requires building or deploying the portfolio now.
+The route-failure/reopen policy now has focused Chromium checks. The next priorities are reload/bfcache behavior and an explicit final fallback if error-page rendering itself fails. These priorities should guide new exercises before adding visual variants. None requires building or deploying the portfolio now.

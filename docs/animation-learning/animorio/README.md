@@ -72,3 +72,5 @@ The [history restoration exercise](06-history-restoration.md) now checks per-ent
 The [composed-controller exercise](06-composed-controllers.md) now verifies shell-owned modal pausing, preference changes, route GPU replacement, back navigation and final cleanup. It records the remaining concurrent-navigation and device/engine boundaries explicitly.
 
 Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish live-reference research from original examples, and choose the next unresolved boundary. Concurrent route requests and Back with an open modal now have focused Chromium checks.
+
+The [navigation-failure lesson](06-navigation-failures.md) now documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure and reload/bfcache remain open boundaries.
