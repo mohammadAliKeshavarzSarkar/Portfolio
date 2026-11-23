@@ -76,3 +76,5 @@ Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish l
 The [navigation-failure lesson](06-navigation-failures.md) now documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure and reload/bfcache remain open boundaries.
 
 [Reload and final recovery](06-reload-and-recovery.md) now adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail. Actual persisted bfcache restoration remains unverified.
+
+[Actual bfcache lifecycle](06-bfcache-lifecycle.md) now records persisted Chromium returns for the standalone frame owner, including identity preservation, zero-delta resume and disposal. Combined GPU/modal cache eligibility remains unverified.

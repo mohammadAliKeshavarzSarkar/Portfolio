@@ -99,3 +99,5 @@ Run `node docs/animation-learning/animorio/verify-reload-browser.cjs`. The reque
 The History adapter skips saving the initial new-document scroll offset before its first refresh, so the stored target survives initialization. Teardown restores the setting captured at mount; Chromium can retain `manual` across reload, so assuming the previous setting was always `auto` is incorrect.
 
 The final-recovery fixture records the cleanup callback order and destroys the actual History adapter. Modal/GPU cleanup functions are stand-ins in this particular test; their resource release is checked separately in the composed fixture. This is not a new end-to-end proof of every controller failing simultaneously.
+
+Follow-up: [the bfcache lifecycle exercise](06-bfcache-lifecycle.md) now observes actual persisted restores for a standalone frame owner. The reload results above retain their separate scope; combined GPU/modal cache eligibility remains unverified.

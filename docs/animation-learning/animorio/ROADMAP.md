@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) for remaining validation. [Reload and final recovery](06-reload-and-recovery.md) now have focused Chromium checks. Actual persisted bfcache restoration, other-engine behavior, assistive technology and physical-device measurements remain unverified. Before selecting further catalog examples, use those boundaries to assess the reuse readiness of the mechanisms already documented.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. The [bfcache exercise](06-bfcache-lifecycle.md) now observes persisted Chromium restores for a standalone frame owner. Next, test cache eligibility and independent pause reasons in the combined GPU/modal shell; other-engine, assistive-technology and hardware checks remain open.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 
