@@ -10,10 +10,12 @@ The full catalog has been inventoried. **Ten representative standalone scripts h
 2. Use [the ten implementation reviews](SOURCE-REVIEW.md) to understand mechanisms and integration risks.
 3. Work through [the original code notes](FOUNDATIONS.md): coordinate spaces, progress, damping, looping and cleanup.
 4. Continue with [Lesson 1: pointer geometry and springs](01-pointer-and-springs.md), including original code, interaction states and executable checks.
-5. Consult [browser observations](BROWSER-CHECKS.md) before treating a source-level finding as tested behavior.
-6. Search [catalog.csv](catalog.csv) for future candidates. [evidence.json](evidence.json) records URLs, source hashes and review scope.
+5. Read [Lesson 2: sticky positioning and scroll progress](02-sticky-and-scroll-progress.md) for card anchors, gallery endpoints, native overflow and resize handling.
+6. Work through [Lesson 3: text progress and chapter state](03-text-progress-and-state.md), including interruption, language-aware text handling and velocity mathematics.
+7. Consult [browser observations](BROWSER-CHECKS.md) before treating a source-level finding as tested behavior.
+8. Search [catalog.csv](catalog.csv) for future candidates. [evidence.json](evidence.json) records URLs, source hashes and review scope.
 
-The foundations and first pointer/spring exercise are documented and checked. [Lesson 1 results](pointer-lesson-validation.json) concern our original snippets in a local browser fixture; they do not extend the live Animorio browser-coverage count. The next lesson is sticky positioning and scroll progress. Real-device and assistive-technology checks remain open.
+The foundations and scoped pointer, scroll, text/chapter, navigation, rendering and integration exercises are documented and checked to the limits in [the coverage matrix](COVERAGE.md). Their original browser fixtures do not extend the number of live Animorio references reviewed. Real-device, assistive-technology and other-engine checks remain open.
 
 ## What the inventory contains
 
@@ -52,3 +54,33 @@ Before directly incorporating an Animorio implementation into a future product, 
 ## How this supports the portfolio studies
 
 The [portfolio case studies](../../portfolio-case-studies/README.md) explain composition and whole-site behavior. This track isolates reusable engineering concepts. A successful exercise explains why motion improves navigation or reading, how it behaves under interruption, and how content remains usable without that motion. Visual polish alone is not the completion criterion.
+
+## Navigation lesson
+
+[Lesson 4: navigation state and SVG reveals](04-navigation-and-reveals.md) now includes tested geometry and asynchronous transition ownership. The [native-dialog adapter](04-browser-adapter.md) adds verified keyboard, reduced-motion, interruption, SVG stroke and cleanup behavior. Full-screen cover geometry and real-device validation remain outside the completed modal exercise.
+
+## Rendering lesson in progress
+
+[Lesson 5: rendering passes and fallbacks](05-rendering-and-fallbacks.md) adds a render graph, original transport exercise, verified texture-memory/draw budgets and lifecycle contracts. The [small browser renderer](05-browser-renderer.md) now exercises optional GPU decoration, failure fallback, context restoration and reduced motion. Real-device benchmarks and a moving fluid renderer remain pending.
+
+The [animation clock exercise](05-animation-ownership.md) now verifies one-loop ownership, offscreen pausing, reduced motion, readiness and disposal. The static GPU and moving-marker checks are separate exercises; an integrated moving GPU renderer and real-device measurements remain pending.
+
+The GPU exercise now supports an integrated moving mode with verified offscreen/reduced-motion pause, context restoration and disposal. [Integration contracts](06-integration-contracts.md) consolidate ownership and identify the remaining application, hardware and cross-browser checks.
+
+The [history restoration exercise](06-history-restoration.md) now checks per-entry scroll positions, actual back/forward navigation, delayed layout readiness and stale-navigation cancellation in Chromium. Application-specific routing and other browser engines remain unverified.
+
+The [composed-controller exercise](06-composed-controllers.md) now verifies shell-owned modal pausing, preference changes, route GPU replacement, back navigation and final cleanup. It records the remaining concurrent-navigation and device/engine boundaries explicitly.
+
+Use the [coverage matrix](COVERAGE.md) to find runnable exercises, distinguish live-reference research from original examples, and choose the next unresolved boundary. Concurrent route requests and Back with an open modal now have focused Chromium checks.
+
+The [navigation-failure lesson](06-navigation-failures.md) documents a tested loading gate: no menu reopening while preparation is pending, readable failed routes and recovery links. Error-page-renderer failure remains an open boundary.
+
+[Reload and final recovery](06-reload-and-recovery.md) adds bounded session storage, actual reload restoration and an ordinary-link fallback when both route and error-page preparation fail.
+
+[Actual bfcache lifecycle](06-bfcache-lifecycle.md) records persisted Chromium returns for the standalone frame owner. The [composed bfcache fixture](06-composed-bfcache.md) extends that evidence to native dialog, scroll lock, moving software WebGL and independent modal/page pause handles.
+
+[Cross-browser checks](CROSS-BROWSER.md) now record passing desktop modal/gallery exercises in Chromium and Firefox, under normal and reduced motion. WebKit is unavailable due to missing host libraries; GPU, bfcache and other lessons retain their narrower Chromium-only scope.
+
+The [text/history extension](CROSS-BROWSER-TEXT-HISTORY.md) now also passes in Firefox and Chromium, including chapter interruptions, readable text, delayed layout and actual back/forward restoration. Firefox text coverage is desktop only; GPU and bfcache remain Chromium-only.
+
+[GPU capability checks](CROSS-BROWSER-GPU.md) now record passing readable fallbacks in both engines. Chromium also renders and restores its software-WebGL context. Firefox returns no actual context in this headless environment, so its GPU rendering/restoration paths remain untested; no hardware performance claim is made.

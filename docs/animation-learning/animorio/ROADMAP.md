@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations and [first pointer/spring lesson](01-pointer-and-springs.md) now contain original, verified exercises. Phases 2–6 remain planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its [static renderer lifecycle](05-browser-renderer.md) is browser-checked, and its [animation scheduling exercise](05-animation-ownership.md) is checked separately; integrated moving-GPU lifecycle is now checked in software Chromium, while real-device gates remain pending. Phase 6 now has documented integration contracts; a local History fixture is browser-checked, while application-level validation remains pending. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -38,6 +38,8 @@ Exercises:
 
 **Priority:** highest for portfolio sections. **Prerequisites:** Phase 0; Phase 1 is useful but not required.
 
+**Progress:** [Lesson 2](02-sticky-and-scroll-progress.md) verifies CSS sticky cards, pure decoration geometry and an original gallery controller. Chromium checks cover forward/reverse travel, endpoints, keyboard navigation, resize, runtime reduced motion, native overflow and no-JavaScript access. The card decoration controller itself, physical touch devices and screen-reader behavior remain outside this completed exercise's scope.
+
 Study [Stacking cards](https://animorio.com/en/animations/stacking-cards/) before [Reportage horizontal gallery](https://animorio.com/en/animations/reportage-horizontal-gallery/). Both use CSS sticky; their JavaScript has different jobs. Cards respond to neighboring anchors. The gallery derives a composition from one shared progress value.
 
 Exercises:
@@ -47,11 +49,13 @@ Exercises:
 3. Design the gallery's reduced-motion branch as a native horizontal scroller with discoverable controls, then test keyboard access.
 4. Specify font/image readiness and resize invalidation without reading layout on every frame.
 
-**Deliverable:** `02-sticky-and-scroll-progress.md`, with geometry formulas and a refresh sequence. **Gate:** content works with native scrolling, the final item is reachable, reverse scrolling is correct, and resized measurements match the current layout. Only then evaluate whether smooth scrolling adds value.
+**Deliverable:** [02-sticky-and-scroll-progress.md](02-sticky-and-scroll-progress.md), with geometry formulas and a refresh sequence. **Gate:** content works with native scrolling, the final item is reachable, reverse scrolling is correct, and resized measurements match the current layout. Only then evaluate whether smooth scrolling adds value.
 
 ## Phase 3 — Typography and scroll-driven state
 
 **Priority:** high. **Prerequisite:** Phase 2.
+
+**Progress:** [Lesson 3](03-text-progress-and-state.md) verifies continuous phrase emphasis, discrete chapter selection, cancellation during rapid reversal and a readable transcript. Numeric checks cover elapsed-time decay and repeat coverage. Variable-font layout/paint measurements, Persian visual shaping and a complete marquee component remain separate work; they are not claimed as completed browser exercises.
 
 Compare [Manifesto that lights up word by word](https://animorio.com/en/animations/manifesto-that-lights-up-word-by-word-on-scroll/) with [Chapters that swap askew](https://animorio.com/en/animations/chapters-that-swap-askew-on-scroll/). One scrubs a timeline; the other crosses thresholds that launch timed transitions while separately applying continuous drift. Then examine [Marquee speeds up with scroll](https://animorio.com/en/animations/marquee-speeds-up-with-scroll/) as a velocity-driven system.
 
@@ -63,7 +67,7 @@ Exercises:
 4. Replace per-frame decay in an original marquee calculation with elapsed-time decay; keep a single owner for shared scroll velocity. Recalculate clone coverage after a wider resize.
 5. Plan Persian/RTL text handling. Do not split Persian words into independent Latin-style letter spans: shaping, joining and reading order need a separate design and actual font tests.
 
-**Deliverable:** `03-text-progress-and-state.md`, including a transition table and text-accessibility notes. **Gate:** endpoints and fast reverse scroll work, text remains selectable/readable, reduced motion preserves every chapter, and 120 Hz does not change intended decay duration.
+**Deliverable:** [03-text-progress-and-state.md](03-text-progress-and-state.md), including a transition table and text-accessibility notes. **Gate:** endpoints and fast reverse scroll work, text remains selectable/readable, reduced motion preserves every chapter, and 120 Hz does not change intended decay duration.
 
 ## Phase 4 — Navigation and SVG reveals
 
@@ -78,7 +82,7 @@ Exercises:
 3. Describe an SVG stroke reveal using normalized path length and an oversize covering stroke. Add a guaranteed content-visible state for failed initialization.
 4. Test repeated open/close and replay requests during animation. For future route changes, decide when old content leaves, new content becomes ready, focus moves and scroll is restored.
 
-**Deliverable:** `04-navigation-and-reveals.md`, with original geometry and state examples. **Gate:** Escape, focus restoration, background interaction, interrupted transitions and failed asset loading all have defined outcomes. A decorative intro must never gate access indefinitely.
+**Deliverable:** [04-navigation-and-reveals.md](04-navigation-and-reveals.md), with original geometry and state examples. **Gate:** Escape, focus restoration, background interaction, interrupted transitions and failed asset loading all have defined outcomes. A decorative intro must never gate access indefinitely.
 
 ## Phase 5 — Optional WebGL rendering
 
@@ -93,7 +97,7 @@ Exercises:
 3. Estimate memory and draw-pass budgets at two resolutions. Account for aspect ratio, target count, format and pressure iterations.
 4. Specify hidden-tab/offscreen pausing, context loss/restoration and disposal of programs, buffers, textures and observers.
 
-**Deliverable:** `05-rendering-and-fallbacks.md`, including pass graph and measured quality tradeoffs. **Gate:** a usable fallback works with WebGL unavailable, reduced motion stops ongoing fluid motion, and a real mobile device is tested before any performance claim.
+**Deliverable:** [05-rendering-and-fallbacks.md](05-rendering-and-fallbacks.md), including pass graph and measured quality tradeoffs. **Gate:** a usable fallback works with WebGL unavailable, reduced motion stops ongoing fluid motion, and a real mobile device is tested before any performance claim.
 
 [Melting sheet](https://animorio.com/en/animations/melting-sheet/) and [The glass word](https://animorio.com/en/animations/glass-word/) are **pending source access**, not reviewed examples of any specific technique. Revisit once accessible; then decide whether they add a new concept or duplicate this phase.
 
@@ -103,13 +107,13 @@ Exercises:
 
 This phase specifies integration contracts; it does not authorize or require building the portfolio now. Compare standalone examples with framework adapters only after reading those adapters separately.
 
-**Deliverable:** `06-integration-contracts.md`: one scroll owner, one owner per animated property, local selectors, cleanup, font/layout invalidation, motion-preference changes, route lifecycle, content fallback and a measured performance budget.
+**Deliverable:** [06-integration-contracts.md](06-integration-contracts.md): one scroll owner, one owner per animated property, local selectors, cleanup, font/layout invalidation, motion-preference changes, route lifecycle, content fallback and a measured performance budget.
 
 **Gate:** repeated mount/unmount causes no duplicate listeners, triggers or tickers; keyboard and touch remain usable; preference changes work without reload; anchor links and browser back/forward restore sensible positions. Record Chromium/Firefox/WebKit and real-device results separately, including failures.
 
 ## The next session
 
-Continue with **Phase 2: sticky positioning and scroll progress**, starting with Stacking cards and then the Reportage horizontal gallery. Build on Lesson 1's separation between stationary measurement geometry and moving visuals. Document scroll anchors, usable travel, resize invalidation and native-scroll fallbacks before introducing smooth scrolling. The existing first ten reviews provide the reading material.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. Modal/gallery and text/history checks pass in Chromium and Firefox. The [GPU matrix](CROSS-BROWSER-GPU.md) now verifies readable fallback in both; Firefox provides no actual context in this environment. Next, complete WebKit host setup or use a graphics-capable Firefox/device environment. Assistive technology and real-device measurements remain open; composed bfcache/GPU results retain their Chromium software-renderer scope.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

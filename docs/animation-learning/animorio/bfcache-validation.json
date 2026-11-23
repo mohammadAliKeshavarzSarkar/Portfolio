@@ -1,0 +1,25 @@
+{
+  "recordedAt": "2026-11-23T08:02:33.057Z",
+  "browser": "156.0.8078.79",
+  "headless": true,
+  "launchChange": "Removed --disable-back-forward-cache from Playwright defaults",
+  "lessonSHA256": "6836d18a9f60c9c0f42fd28d851a3900a4288c83d4a7db5ff254f5d26ab3996b",
+  "status": "passed",
+  "observed": {
+    "shows": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "hides": [
+      true,
+      true,
+      true
+    ],
+    "suspends": 2,
+    "resumes": 2,
+    "mounts": 1
+  },
+  "scope": "Actual persisted cross-document cache return for a standalone frame owner; no GPU/modal composition or performance claim"
+}

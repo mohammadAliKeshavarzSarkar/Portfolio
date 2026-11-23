@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-11-23T08:15:21.523Z",
+  "browser": "156.0.8078.79",
+  "renderer": "software WebGL via --enable-unsafe-swiftshader",
+  "launchChange": "Removed --disable-back-forward-cache from Playwright defaults",
+  "lessonSHA256": "643f6d4bd55d2fba28299590bc2fdacf5d0cd5364fbfbfe8b7f7f92d91080eec",
+  "status": "passed",
+  "observed": {
+    "shows": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "hides": [
+      true,
+      true,
+      true
+    ],
+    "mounts": 1
+  },
+  "scope": "Persisted Chromium return for composed native dialog, scroll lock, moving WebGL renderer and independent modal/page pause handles"
+}
