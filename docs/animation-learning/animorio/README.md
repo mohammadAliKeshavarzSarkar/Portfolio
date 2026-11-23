@@ -68,3 +68,5 @@ The [animation clock exercise](05-animation-ownership.md) now verifies one-loop 
 The GPU exercise now supports an integrated moving mode with verified offscreen/reduced-motion pause, context restoration and disposal. [Integration contracts](06-integration-contracts.md) consolidate ownership and identify the remaining application, hardware and cross-browser checks.
 
 The [history restoration exercise](06-history-restoration.md) now checks per-entry scroll positions, actual back/forward navigation, delayed layout readiness and stale-navigation cancellation in Chromium. Application-specific routing and other browser engines remain unverified.
+
+The [composed-controller exercise](06-composed-controllers.md) now verifies shell-owned modal pausing, preference changes, route GPU replacement, back navigation and final cleanup. It records the remaining concurrent-navigation and device/engine boundaries explicitly.

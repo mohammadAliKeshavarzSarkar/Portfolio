@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Continue by composing the independently checked controllers in a focused learning fixture and testing ownership boundaries. [History restoration](06-history-restoration.md) now has a passing Chromium exercise; reload/bfcache, real application routing, other engines and physical-device performance remain unverified.
+Continue by consolidating the coverage matrix and prioritizing the unverified boundaries listed in [composed controllers](06-composed-controllers.md). The focused shell/modal/GPU/history fixture passes in software Chromium; concurrent shell requests, reload/bfcache and real-device/other-engine checks remain open.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

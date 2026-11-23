@@ -34,7 +34,8 @@ function mountGpuStudy(root, options = {}) {
     buffer = null;
   let shaders = [],
     disposed = false,
-    lost = false;
+    lost = false,
+    paused = false;
   const counts = { draws: 0, builds: 0, releases: 0 };
   let clock = null,
     phase = 0,
@@ -130,7 +131,7 @@ function mountGpuStudy(root, options = {}) {
       counts.draws++;
       counts.builds++;
       canvas.hidden = false;
-      if (clock) clock.setContextReady(true);
+      if (clock) clock.setContextReady(!paused);
     } catch (error) {
       release();
     }
@@ -147,7 +148,7 @@ function mountGpuStudy(root, options = {}) {
   canvas.addEventListener(
     "webglcontextrestored",
     () => {
-      lost = false;
+      ((lost = false), (paused = false));
       build();
     },
     { signal: events.signal },
@@ -162,6 +163,10 @@ function mountGpuStudy(root, options = {}) {
   );
   build();
   return {
+    setPaused(value) {
+      paused = Boolean(value);
+      if (clock) clock.setContextReady(!paused && Boolean(program) && !lost);
+    },
     get counts() {
       return { ...counts };
     },
@@ -198,3 +203,5 @@ Load the JavaScript from [animation ownership](05-animation-ownership.md) before
 Resource release first marks the clock unready. Successful rebuilding marks it ready again; unmount destroys the clock before deleting GPU objects. The clock retains active elapsed phase across restoration while its resumed delta starts at zero. A frame failure latches the binding stopped and exposes the fallback; remount for explicit recovery. Normal reduced-motion changes release resources and rebuild on return.
 
 The integrated test runs `node docs/animation-learning/animorio/verify-gpu-motion.cjs`. It checks changing shader output, stable counters while offscreen or reduced-motion, resumption after context restoration, and no draws after destruction. Software Chromium verifies behavior only. Physical hidden-tab transitions and hardware/mobile performance remain unverified. Continuous visual effects need a suitable user pause control in any real interface; this short automated learning fixture does not define a production interaction.
+
+The application shell can call `setPaused(true)` while a modal is open and release that pause after closing. This flag survives resource rebuilding, so toggling reduced motion cannot resume background GPU work behind the modal. Each instance has one external-pause owner in this exercise; overlapping external owners would need pause tokens rather than a shared boolean.
