@@ -36,8 +36,30 @@ function mountGpuStudy(root, options = {}) {
     disposed = false,
     lost = false;
   const counts = { draws: 0, builds: 0, releases: 0 };
+  let clock = null,
+    phase = 0,
+    shade = null;
+  if (options.animate) {
+    clock = bindFrameOwner(
+      root,
+      (dt) => {
+        if (!program || lost || disposed) return;
+        phase += dt;
+        gl.useProgram(program);
+        gl.uniform1f(shade, 0.5 + 0.4 * Math.sin(phase * 2));
+        gl.clear(gl.COLOR_BUFFER_BIT);
+        gl.drawArrays(gl.TRIANGLES, 0, 3);
+        if (gl.getError() !== gl.NO_ERROR)
+          throw new Error("Frame drawing failed");
+        counts.draws++;
+      },
+      () => release(),
+    );
+    clock.setContextReady(false);
+  }
 
   function release() {
+    if (clock) clock.setContextReady(false);
     if (gl && !lost) {
       if (buffer) gl.deleteBuffer(buffer);
       if (program) gl.deleteProgram(program);
@@ -80,7 +102,7 @@ function mountGpuStudy(root, options = {}) {
         program,
         compile(
           gl.FRAGMENT_SHADER,
-          "precision mediump float; void main(){gl_FragColor=vec4(0.12,0.45,0.58,1.0);}",
+          "precision mediump float; uniform float shade; void main(){gl_FragColor=vec4(0.12,0.45,shade,1.0);}",
         ),
       );
       gl.linkProgram(program);
@@ -95,6 +117,8 @@ function mountGpuStudy(root, options = {}) {
         gl.STATIC_DRAW,
       );
       gl.useProgram(program);
+      shade = gl.getUniformLocation(program, "shade");
+      gl.uniform1f(shade, 0.58);
       const location = gl.getAttribLocation(program, "position");
       gl.enableVertexAttribArray(location);
       gl.vertexAttribPointer(location, 2, gl.FLOAT, false, 0, 0);
@@ -106,6 +130,7 @@ function mountGpuStudy(root, options = {}) {
       counts.draws++;
       counts.builds++;
       canvas.hidden = false;
+      if (clock) clock.setContextReady(true);
     } catch (error) {
       release();
     }
@@ -143,6 +168,7 @@ function mountGpuStudy(root, options = {}) {
     destroy() {
       if (disposed) return;
       disposed = true;
+      if (clock) clock.destroy();
       events.abort();
       release();
       canvas.hidden = originalHidden;
@@ -157,10 +183,18 @@ This uses WebGL 1 for a minimal shader exercise; the reference fluid simulation 
 
 The renderer owns its canvas context, program, shaders and buffer. Compilation or linking failure releases partially allocated resources. On context loss, handles are discarded without attempting to use the lost context. Restoration creates all resources again. Destroy detaches listeners and releases owned objects; it does not forcibly lose a context that another owner might use.
 
-Reduced motion hides the decoration and releases its resources. Restoring normal motion rebuilds once. This intentionally exercises mode changes even though the triangle is static. There is no RAF loop, automatic animation or offscreen activity; animation pausing belongs to a future moving-renderer exercise.
+Reduced motion hides the decoration and releases its resources. Restoring normal motion rebuilds once. This intentionally exercises mode changes even though the triangle is static. Default static mode has no RAF loop. The optional moving mode below uses the shared frame owner to handle pausing and resumption.
 
 ## Browser verification
 
 Run `node docs/animation-learning/animorio/verify-gpu-browser.cjs`. Tests extract the code above, verify visible/readable DOM fallback when context creation or shader compilation fails, check a real rendered pixel, exercise live reduced-motion changes, simulate context loss/restoration using `WEBGL_lose_context`, and verify disposal prevents later rebuilds.
 
 Chromium in this environment uses software WebGL for these checks. This establishes functional behavior, not hardware GPU speed, mobile compatibility or texture-format support. Phase 5 still needs a real-device quality experiment before any performance claim, and a moving renderer before hidden/offscreen pause behavior can be verified. The fluid solver remains a separate advanced exercise.
+
+## Integrated moving-renderer mode
+
+Load the JavaScript from [animation ownership](05-animation-ownership.md) before this renderer, then pass `{ animate: true }`. The static mode remains the default. Moving mode adds a fragment-color uniform driven by active elapsed time, without allocating GPU resources in the frame loop. The frame owner pauses for intersection, document visibility, reduced motion and context readiness.
+
+Resource release first marks the clock unready. Successful rebuilding marks it ready again; unmount destroys the clock before deleting GPU objects. The clock retains active elapsed phase across restoration while its resumed delta starts at zero. A frame failure latches the binding stopped and exposes the fallback; remount for explicit recovery. Normal reduced-motion changes release resources and rebuild on return.
+
+The integrated test runs `node docs/animation-learning/animorio/verify-gpu-motion.cjs`. It checks changing shader output, stable counters while offscreen or reduced-motion, resumption after context restoration, and no draws after destruction. Software Chromium verifies behavior only. Physical hidden-tab transitions and hardware/mobile performance remain unverified. Continuous visual effects need a suitable user pause control in any real interface; this short automated learning fixture does not define a production interaction.

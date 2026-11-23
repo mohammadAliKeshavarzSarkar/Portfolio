@@ -2,7 +2,7 @@
 
 The goal is to understand a small number of mechanisms deeply enough to adapt them later. Hundreds of differently styled demos can share the same mechanism. The initial order favors portfolio navigation, project browsing and reading over decorative GPU work.
 
-The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its [static renderer lifecycle](05-browser-renderer.md) is browser-checked, and its [animation scheduling exercise](05-animation-ownership.md) is checked separately; integrated moving-GPU and real-device gates remain pending. Phase 6 remains planned work. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
+The source review and curriculum are complete for this initial batch. The foundations, [pointer/spring lesson](01-pointer-and-springs.md), [sticky/scroll lesson](02-sticky-and-scroll-progress.md) and [text/chapter lesson](03-text-progress-and-state.md) now contain original, verified exercises. Phase 4 now has tested state/geometry exercises and a [browser-checked native-dialog adapter](04-browser-adapter.md); full-screen covers and physical-device validation remain separate work. Phase 5 now has tested transport and budgeting exercises; its [static renderer lifecycle](05-browser-renderer.md) is browser-checked, and its [animation scheduling exercise](05-animation-ownership.md) is checked separately; integrated moving-GPU lifecycle is now checked in software Chromium, while real-device gates remain pending. Phase 6 now has documented integration contracts; application-level validation remains pending. Browser results apply to the documented test scope, not to a production implementation. Advance by passing the completion gate, not by collecting screenshots.
 
 ## Phase 0 — Motion foundations
 
@@ -107,13 +107,13 @@ Exercises:
 
 This phase specifies integration contracts; it does not authorize or require building the portfolio now. Compare standalone examples with framework adapters only after reading those adapters separately.
 
-**Deliverable:** `06-integration-contracts.md`: one scroll owner, one owner per animated property, local selectors, cleanup, font/layout invalidation, motion-preference changes, route lifecycle, content fallback and a measured performance budget.
+**Deliverable:** [06-integration-contracts.md](06-integration-contracts.md): one scroll owner, one owner per animated property, local selectors, cleanup, font/layout invalidation, motion-preference changes, route lifecycle, content fallback and a measured performance budget.
 
 **Gate:** repeated mount/unmount causes no duplicate listeners, triggers or tickers; keyboard and touch remain usable; preference changes work without reload; anchor links and browser back/forward restore sensible positions. Record Chromium/Firefox/WebKit and real-device results separately, including failures.
 
 ## The next session
 
-Continue by connecting the tested frame owner to the GPU resource lifecycle, then validate the integrated moving renderer. The current static GPU and moving-marker exercises independently cover resource restoration and scheduling. Real-device testing remains required before performance claims. Phase 6 can then consolidate these owners into integration contracts.
+Continue from the [integration contracts](06-integration-contracts.md): validate composed ownership and route/history behavior in a focused learning fixture, then record hardware and cross-browser checks where available. The integrated GPU scheduling/restoration exercise passes in software Chromium; physical-device performance remains unmeasured.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 
