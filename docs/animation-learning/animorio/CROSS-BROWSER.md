@@ -22,4 +22,4 @@ Firefox initially timed out inside the command sandbox with a read-only `/proc/s
 
 Launch failures are recorded as `unavailable`; assertion failures are `failed` and set a nonzero exit code. A zero runner exit code does not mean all engines passed: read the individual results. The runner never substitutes Chromium for an unavailable engine.
 
-Next, extend cross-browser coverage to route/history and text/chapter state, then separately test GPU capability/fallback behavior. Bfcache requires its own server and launch configuration and is not inferred from this matrix.
+The follow-up [text/history report](CROSS-BROWSER-TEXT-HISTORY.md) now records passing Chromium and Firefox suites. Next, separately test GPU capability/fallback behavior. Bfcache requires its own server and launch configuration and is not inferred from either cross-browser matrix.

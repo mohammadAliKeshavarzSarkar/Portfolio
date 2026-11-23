@@ -1,7 +1,7 @@
 const assert = require("node:assert/strict"),
   fs = require("node:fs"),
   path = require("node:path");
-const { chromium } = require("playwright");
+const playwright = require("playwright");
 const markdown = fs.readFileSync(
   path.join(__dirname, "06-history-restoration.md"),
   "utf8",
@@ -10,10 +10,17 @@ const code = [...markdown.matchAll(/```js\n([\s\S]*?)```/g)]
   .map((m) => m[1])
   .join("\n");
 (async () => {
-  const browser = await chromium.launch({
-    executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
+  const engine = process.env.BROWSER_ENGINE || "chromium";
+  if (!["chromium", "firefox", "webkit"].includes(engine))
+    throw new Error("Unknown browser engine");
+  const browser = await playwright[engine].launch({
+    ...(engine === "chromium"
+      ? { executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium" }
+      : {}),
     headless: true,
+    timeout: 20000,
   });
+  console.log(`Engine: ${engine} ${browser.version()}`);
   try {
     const page = await browser.newPage(),
       errors = [];

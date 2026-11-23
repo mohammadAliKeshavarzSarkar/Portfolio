@@ -1,0 +1,48 @@
+{
+  "recordedAt": "2026-11-23T09:30:33.913Z",
+  "scope": "Original text/chapter and History fixtures; Firefox desktop normal/reduced motion and no-JavaScript text baseline; Chromium retains desktop/mobile emulation; no GPU/bfcache or hardware expansion",
+  "sources": [
+    {
+      "file": "03-text-progress-and-state.md",
+      "sha256": "d6255443c27588dd1174fef3de818581d8047990bd877fc6289872897cbaf393"
+    },
+    {
+      "file": "06-history-restoration.md",
+      "sha256": "be3cfb8eba22a22b7dce4e0e76f7d3f1fbef8400124f0c865754cb6f94e5da17"
+    }
+  ],
+  "results": [
+    {
+      "engine": "chromium",
+      "suite": "verify-text-lesson.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "Text, chapter, decay and repeat-coverage math passed.\nEngine: chromium 156.0.8078.79\nText browser checks passed: mobile=false, reduced=false\nText browser checks passed: mobile=false, reduced=true\nText browser checks passed: mobile=true, reduced=false\nText browser checks passed: mobile=true, reduced=true\n",
+      "stderr": ""
+    },
+    {
+      "engine": "chromium",
+      "suite": "verify-history-browser.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "Engine: chromium 156.0.8078.79\nHistory fixture passed: back/forward, repeated routes, delayed layout, latest navigation, focus and disposal.\n",
+      "stderr": ""
+    },
+    {
+      "engine": "firefox",
+      "suite": "verify-text-lesson.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "Text, chapter, decay and repeat-coverage math passed.\nEngine: firefox 153.0\nText browser checks passed: mobile=false, reduced=false\nText browser checks passed: mobile=false, reduced=true\n",
+      "stderr": ""
+    },
+    {
+      "engine": "firefox",
+      "suite": "verify-history-browser.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "Engine: firefox 153.0\nHistory fixture passed: back/forward, repeated routes, delayed layout, latest navigation, focus and disposal.\n",
+      "stderr": ""
+    }
+  ]
+}

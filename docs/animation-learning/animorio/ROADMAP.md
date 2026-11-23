@@ -113,7 +113,7 @@ This phase specifies integration contracts; it does not authorize or require bui
 
 ## The next session
 
-Use the [coverage matrix](COVERAGE.md) for remaining validation. The [cross-browser modal/gallery checks](CROSS-BROWSER.md) pass in Chromium and Firefox. Next, extend Firefox coverage to text/chapter and route/history behavior. WebKit needs host-library setup; real-device and assistive-technology checks remain open. The composed bfcache/GPU results retain their Chromium software-renderer scope.
+Use the [coverage matrix](COVERAGE.md) for remaining validation. Modal/gallery and [text/history checks](CROSS-BROWSER-TEXT-HISTORY.md) now pass in Chromium and Firefox. Next, test GPU capability/fallback behavior by engine or complete WebKit host-library setup. Real-device and assistive-technology checks remain open; composed bfcache/GPU results retain their Chromium software-renderer scope.
 
 For subsequent catalog entries, select one example only when it introduces a new input model, geometry, renderer or meaningful edge case. Group visual variants under that mechanism. Use this lesson template:
 

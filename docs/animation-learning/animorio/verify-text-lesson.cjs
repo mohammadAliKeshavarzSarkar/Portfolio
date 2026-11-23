@@ -52,15 +52,22 @@ assert.throws(() => decayVelocity(100, -1));
 console.log("Text, chapter, decay and repeat-coverage math passed.");
 
 async function browserChecks() {
-  const { chromium } = require("playwright");
-  const browser = await chromium.launch({
-    executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
+  const playwright = require("playwright");
+  const engine = process.env.BROWSER_ENGINE || "chromium";
+  if (!["chromium", "firefox", "webkit"].includes(engine))
+    throw new Error("Unknown browser engine");
+  const browser = await playwright[engine].launch({
+    ...(engine === "chromium"
+      ? { executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium" }
+      : {}),
     headless: true,
+    timeout: 20000,
   });
+  console.log(`Engine: ${engine} ${browser.version()}`);
   const scenarios = [];
   const fixture = `<meta name="viewport" content="width=device-width,initial-scale=1"><style>html{scroll-behavior:auto}body{margin:24px;padding-top:120px;padding-bottom:1000px}${extract("css").join("\n")}</style>${extract("html").join("\n")}`;
   try {
-    for (const mobile of [false, true])
+    for (const mobile of engine === "firefox" ? [false] : [false, true])
       for (const reduced of [false, true]) {
         const errors = [];
         const ctx = await browser.newContext({
@@ -353,6 +360,7 @@ async function browserChecks() {
     const result = {
       recordedAt: new Date().toISOString(),
       browser: browser.version(),
+      engine,
       node: process.version,
       lessonSHA256: crypto.createHash("sha256").update(markdown).digest("hex"),
       numeric: "passed",
@@ -369,7 +377,9 @@ async function browserChecks() {
         "short-viewport fallback",
       ],
       limitations: [
-        "Chromium only; emulated mobile",
+        engine === "firefox"
+          ? "Firefox desktop only; mobile emulation is unsupported"
+          : `${engine}; mobile is emulated`,
         "No screen reader or Persian visual shaping audit",
         "No variable-font or rendering-cost benchmark",
         "Marquee math tested, not a full marquee component",
@@ -377,7 +387,12 @@ async function browserChecks() {
     };
     if (process.argv.includes("--record"))
       fs.writeFileSync(
-        path.join(__dirname, "text-lesson-validation.json"),
+        path.join(
+          __dirname,
+          engine === "chromium"
+            ? "text-lesson-validation.json"
+            : `text-lesson-${engine}-validation.json`,
+        ),
         JSON.stringify(result, null, 2) + "\n",
       );
   } finally {

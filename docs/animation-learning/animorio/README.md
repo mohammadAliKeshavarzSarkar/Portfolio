@@ -80,3 +80,5 @@ The [navigation-failure lesson](06-navigation-failures.md) documents a tested lo
 [Actual bfcache lifecycle](06-bfcache-lifecycle.md) records persisted Chromium returns for the standalone frame owner. The [composed bfcache fixture](06-composed-bfcache.md) extends that evidence to native dialog, scroll lock, moving software WebGL and independent modal/page pause handles.
 
 [Cross-browser checks](CROSS-BROWSER.md) now record passing desktop modal/gallery exercises in Chromium and Firefox, under normal and reduced motion. WebKit is unavailable due to missing host libraries; GPU, bfcache and other lessons retain their narrower Chromium-only scope.
+
+The [text/history extension](CROSS-BROWSER-TEXT-HISTORY.md) now also passes in Firefox and Chromium, including chapter interruptions, readable text, delayed layout and actual back/forward restoration. Firefox text coverage is desktop only; GPU and bfcache remain Chromium-only.
